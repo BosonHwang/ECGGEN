@@ -1,0 +1,55 @@
+run:
+  checkpoint_root: /home/gbsguest/Research/boson/BIO/ecggen/checkpoints
+  log_root: /home/gbsguest/Research/boson/BIO/ecggen/logs
+  runs_root: /home/gbsguest/Research/boson/BIO/ecggen/runs
+  save_every: 100
+  force_cuda: true
+  m: m1
+  s: s1
+  k: k1
+  id_map:
+    m:
+      m1: baseline_tokenizer
+    s:
+      s1: seed_1
+    k:
+      k1: exp_baseline
+
+data:
+  dataset_type: mimic_raw  # options: 'npy', 'mimic_raw'
+  meta_root: /home/gbsguest/Research/boson/BIO/ecgvec/disk1/ecg/manifest/mimic.json
+  num_leads: 12
+  fs: 100
+
+
+
+model:
+  num_leads: 12
+  token_dim: 64
+  beat_len: 128
+  tokenizer_mode: equidistant  # or "rr"
+  d_model: 128
+  state_dim: 64
+  vcg_basis_k: 32
+  vcg_time_len: 256
+  residual_enabled: true
+  ttt_step_size: 0.001
+  ttt_smooth_lambda: 0.01
+  ttt_chunk_size: 4
+  reg:
+    smoothness: 0.0
+    energy: 0.0
+    loop_closure: 0.0
+  head:
+    type: linear
+    num_classes: 2
+    hidden: 128
+
+
+train:
+  batch_size: 128
+  num_workers: 4
+  lr: 0.001
+  max_steps: 100000000
+  epochs: 5
+
