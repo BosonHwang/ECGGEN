@@ -1,3 +1,12 @@
+"""
+Data loading pipeline for ECG datasets.
+
+Provides:
+- ECGDataset: Load pre-processed .npy files
+- MimicRawDataset: Load raw MIMIC-IV WFDB files with train/val split
+- make_dataloader: Convenience function to create DataLoaders
+"""
+
 from dataclasses import dataclass
 import os
 import random
@@ -5,13 +14,15 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import numpy as np
 import torch
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset, DataLoader, Subset
 
 
 from .mimic import MimicLoader
 
+
 class ECGDataset(Dataset):
-    # ... existing ECGDataset implementation ...
+    """Dataset for pre-processed ECG .npy files."""
+    
     def __init__(self, root: str, split: str, num_leads: int = 12, time_len: Optional[int] = None):
         super().__init__()
         self.root = root
@@ -60,19 +71,46 @@ class ECGDataset(Dataset):
 
 
 class MimicRawDataset(Dataset):
-    """Dataset for raw MIMIC-IV WFDB files using a manifest."""
+    """
+    Dataset for raw MIMIC-IV WFDB files using a manifest.
     
-    def __init__(self, manifest_path: str, fs_out: int = 100, time_len: Optional[int] = None, num_leads: int = 12):
+    Supports train/val split via indices parameter.
+    """
+    
+    def __init__(
+        self, 
+        manifest_path: str, 
+        fs_out: int = 100, 
+        time_len: Optional[int] = None, 
+        num_leads: int = 12,
+        indices: Optional[List[int]] = None
+    ):
+        """
+        Args:
+            manifest_path: Path to JSONL manifest file
+            fs_out: Target sampling rate
+            time_len: Target time length (crop/pad if needed)
+            num_leads: Expected number of leads
+            indices: Optional list of indices to use (for train/val split)
+        """
         super().__init__()
         self.loader = MimicLoader(manifest_path, fs_out=fs_out)
         self.time_len = time_len
         self.num_leads = num_leads
+        
+        # If indices provided, use them; otherwise use all
+        if indices is not None:
+            self.indices = indices
+        else:
+            self.indices = list(range(len(self.loader)))
 
     def __len__(self) -> int:
-        return len(self.loader)
+        return len(self.indices)
 
     def __getitem__(self, idx: int) -> Dict[str, Any]:
-        item = self.loader.get_record(idx)
+        # Map to actual index in loader
+        actual_idx = self.indices[idx]
+        item = self.loader.get_record(actual_idx)
         ecg = item["ecg"]
         
         # Center crop/pad to match time_len
@@ -89,13 +127,13 @@ class MimicRawDataset(Dataset):
             
         return {
             "ecg": ecg.astype(np.float32),
-            "label": None, # MIMIC raw text label is in label_text
+            "label": None,
             "id": item["id"]
         }
 
 
 def _collate(batch: List[Dict[str, Any]]) -> Dict[str, Any]:
-    # ... existing _collate implementation ...
+    """Collate function for ECG batches."""
     ecgs = [torch.from_numpy(x["ecg"]) if isinstance(x["ecg"], np.ndarray) else x["ecg"] for x in batch]
     labels = [x["label"] for x in batch]
     ids = [x["id"] for x in batch]
@@ -113,8 +151,39 @@ def _collate(batch: List[Dict[str, Any]]) -> Dict[str, Any]:
     return {"ecg": ecg_tensor, "label": label_tensor, "id": ids}
 
 
+def split_indices(
+    total_size: int, 
+    train_ratio: float = 0.9, 
+    seed: int = 42
+) -> Tuple[List[int], List[int]]:
+    """
+    Split indices into train and validation sets.
+    
+    Args:
+        total_size: Total number of samples
+        train_ratio: Ratio for training set (default 0.9)
+        seed: Random seed for reproducibility
+    
+    Returns:
+        (train_indices, val_indices)
+    """
+    indices = list(range(total_size))
+    
+    # Shuffle with fixed seed for reproducibility
+    rng = random.Random(seed)
+    rng.shuffle(indices)
+    
+    # Split
+    split_point = int(total_size * train_ratio)
+    train_indices = indices[:split_point]
+    val_indices = indices[split_point:]
+    
+    return train_indices, val_indices
+
+
 def make_dataloader(cfg: Dict[str, Any], split: str) -> DataLoader:
-    """Construct DataLoader for the given split.
+    """
+    Construct DataLoader for the given split.
 
     Config keys (data section):
         - dataset_type: 'npy' (default) or 'mimic_raw'
@@ -122,6 +191,15 @@ def make_dataloader(cfg: Dict[str, Any], split: str) -> DataLoader:
         - fs: target sampling rate (default 100)
         - num_leads: expected lead count (default 12)
         - time_len: target time length for [L, T]
+        - train_ratio: train/val split ratio (default 0.9)
+        - split_seed: random seed for split (default 42)
+    
+    Args:
+        cfg: Full config dictionary
+        split: 'train' or 'val'
+    
+    Returns:
+        DataLoader for the specified split
     """
     data_cfg = cfg.get("data", {})
     dtype = data_cfg.get("dataset_type", "npy")
@@ -131,15 +209,57 @@ def make_dataloader(cfg: Dict[str, Any], split: str) -> DataLoader:
     time_len = data_cfg.get("time_len", None)
     if time_len is not None:
         time_len = int(time_len)
+    
+    train_ratio = float(data_cfg.get("train_ratio", 0.9))
+    split_seed = int(data_cfg.get("split_seed", 42))
+    
     batch_size = int(cfg.get("train", {}).get("batch_size", 4))
     num_workers = int(cfg.get("train", {}).get("num_workers", 0))
 
     if dtype == "mimic_raw":
-        # For mimic_raw, root is expected to be the path to the manifest JSONL
-        ds = MimicRawDataset(manifest_path=root, fs_out=fs, time_len=time_len, num_leads=num_leads)
+        # For mimic_raw, first get total size, then split
+        loader = MimicLoader(root, fs_out=fs)
+        total_size = len(loader)
+        
+        train_indices, val_indices = split_indices(total_size, train_ratio, split_seed)
+        
+        if split == "train":
+            indices = train_indices
+            shuffle = True
+        else:  # val
+            indices = val_indices
+            shuffle = False
+        
+        ds = MimicRawDataset(
+            manifest_path=root, 
+            fs_out=fs, 
+            time_len=time_len, 
+            num_leads=num_leads,
+            indices=indices
+        )
     else:
         ds = ECGDataset(root=root, split=split, num_leads=num_leads, time_len=time_len)
+        shuffle = (split == "train")
         
-    return DataLoader(ds, batch_size=batch_size, shuffle=(split == "train"), num_workers=num_workers, collate_fn=_collate)
+    return DataLoader(
+        ds, 
+        batch_size=batch_size, 
+        shuffle=shuffle, 
+        num_workers=num_workers, 
+        collate_fn=_collate
+    )
 
 
+def make_dataloaders(cfg: Dict[str, Any]) -> Tuple[DataLoader, DataLoader]:
+    """
+    Create both train and validation DataLoaders.
+    
+    Args:
+        cfg: Full config dictionary
+    
+    Returns:
+        (train_loader, val_loader)
+    """
+    train_loader = make_dataloader(cfg, split="train")
+    val_loader = make_dataloader(cfg, split="val")
+    return train_loader, val_loader

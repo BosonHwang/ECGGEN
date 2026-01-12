@@ -1,33 +1,55 @@
 run:
   checkpoint_root: /home/gbsguest/Research/boson/BIO/ecggen/checkpoints
   log_root: /home/gbsguest/Research/boson/BIO/ecggen/logs
-  runs_root: /home/gbsguest/Research/boson/BIO/ecggen/runs
-  save_every: 100
+  log_every: 1000      # Logging interval (steps)
+  val_every: 1000      # Mini validation interval (steps)
+  mini_val_ratio: 0.2  # Use 20% of val set for mini validation
   force_cuda: true
   m: m1
   s: s1
   k: k1
   id_map:
     m:
-      m1: baseline_tokenizer
+      m1: vcg_recon
     s:
       s1: seed_1
     k:
-      k1: exp_baseline
+      k1: exp_v1
 
 data:
   dataset_type: mimic_raw  # options: 'npy', 'mimic_raw'
   meta_root: /home/gbsguest/Research/boson/BIO/ecgvec/disk1/ecg/manifest/mimic.json
   num_leads: 12
+  time_len: 512  # T must be divisible by patch_size
   fs: 100
-
-
+  lead_order: mimic  # Match MIMIC data order
+  train_ratio: 0.9  # Train/val split ratio (0.9 = 90% train, 10% val)
+  split_seed: 42    # Random seed for reproducible split
 
 model:
+  # Patch Embedding
+  patch_size: 16
+  embed_dim: 128
+  
+  # Transformer
+  nhead: 8
+  num_encoder_layers: 4
+  dim_feedforward: 512
+  dropout: 0.0
+  
+  # Decoder
+  decoder_hidden: 64
+  decoder_layers: 2
+  
+  # Lead config
   num_leads: 12
+  num_visible_leads: 3
+  lead_order: mimic
+  
+  # Legacy config (for backward compatibility with train_legacy mode)
   token_dim: 64
   beat_len: 128
-  tokenizer_mode: equidistant  # or "rr"
+  tokenizer_mode: equidistant
   d_model: 128
   state_dim: 64
   vcg_basis_k: 32
@@ -45,11 +67,9 @@ model:
     num_classes: 2
     hidden: 128
 
-
 train:
-  batch_size: 128
+  batch_size: 64
   num_workers: 4
   lr: 0.001
-  max_steps: 100000000
-  epochs: 5
-
+  epochs: 100
+  max_steps: 1000000

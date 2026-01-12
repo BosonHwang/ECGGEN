@@ -1,0 +1,1 @@
+{"run_id": "m1s1k1", "best_step": 472542, "best_epoch": 41, "best_val_loss": 0.862674014793216, "best_train_loss": 0.8766823188059807, "best_path": "/home/gbsguest/Research/boson/BIO/ecggen/checkpoints/m1s1k1/best_m1s1k1_epoch41.pt"}

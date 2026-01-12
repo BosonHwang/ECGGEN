@@ -1,0 +1,1129 @@
+[2026-01-11 22:50:50,637] INFO: Using device: cuda (NVIDIA RTX 6000 Ada Generation)
+[2026-01-11 22:50:50,637] INFO: run_id=m1s1k1 | ckpt_dir=/home/gbsguest/Research/boson/BIO/ecggen/checkpoints/m1s1k1 | log_dir=/home/gbsguest/Research/boson/BIO/ecggen/logs/m1s1k1
+[2026-01-11 22:50:56,219] INFO: params_total=797777 train_size=800035 batch_size=64 epochs=100 max_steps=1000000 log_every=100 steps_per_epoch=12501 num_visible=3
+[2026-01-11 22:50:57,608] INFO: Epoch [0/100] GlobalStep [0] Loss: 4.652070
+[2026-01-11 22:50:57,615] INFO: New best at step 0: loss=4.652070 -> best_m1s1k1_step0.pt
+[2026-01-11 22:50:57,635] INFO: Deleted previous best: best_m1s1k1_step0.pt
+[2026-01-11 22:50:57,640] INFO: New best at step 1: loss=1.453177 -> best_m1s1k1_step1.pt
+[2026-01-11 22:50:57,659] INFO: Deleted previous best: best_m1s1k1_step1.pt
+[2026-01-11 22:50:57,664] INFO: New best at step 2: loss=1.340286 -> best_m1s1k1_step2.pt
+[2026-01-11 22:50:57,684] INFO: Deleted previous best: best_m1s1k1_step2.pt
+[2026-01-11 22:50:57,690] INFO: New best at step 3: loss=1.026576 -> best_m1s1k1_step3.pt
+[2026-01-11 22:50:57,975] INFO: Deleted previous best: best_m1s1k1_step3.pt
+[2026-01-11 22:50:57,982] INFO: New best at step 9: loss=1.009116 -> best_m1s1k1_step9.pt
+[2026-01-11 22:50:58,005] INFO: Deleted previous best: best_m1s1k1_step9.pt
+[2026-01-11 22:50:58,011] INFO: New best at step 10: loss=1.002372 -> best_m1s1k1_step10.pt
+[2026-01-11 22:50:58,034] INFO: Deleted previous best: best_m1s1k1_step10.pt
+[2026-01-11 22:50:58,040] INFO: New best at step 11: loss=0.983109 -> best_m1s1k1_step11.pt
+[2026-01-11 22:50:58,355] INFO: Deleted previous best: best_m1s1k1_step11.pt
+[2026-01-11 22:50:58,362] INFO: New best at step 15: loss=0.981775 -> best_m1s1k1_step15.pt
+[2026-01-11 22:50:58,608] INFO: Deleted previous best: best_m1s1k1_step15.pt
+[2026-01-11 22:50:58,614] INFO: New best at step 17: loss=0.976341 -> best_m1s1k1_step17.pt
+[2026-01-11 22:50:58,691] INFO: Deleted previous best: best_m1s1k1_step17.pt
+[2026-01-11 22:50:58,696] INFO: New best at step 20: loss=0.970158 -> best_m1s1k1_step20.pt
+[2026-01-11 22:50:58,938] INFO: Deleted previous best: best_m1s1k1_step20.pt
+[2026-01-11 22:50:58,944] INFO: New best at step 22: loss=0.965061 -> best_m1s1k1_step22.pt
+[2026-01-11 22:50:59,533] INFO: Deleted previous best: best_m1s1k1_step22.pt
+[2026-01-11 22:50:59,541] INFO: New best at step 29: loss=0.962723 -> best_m1s1k1_step29.pt
+[2026-01-11 22:51:02,666] INFO: Deleted previous best: best_m1s1k1_step29.pt
+[2026-01-11 22:51:02,673] INFO: New best at step 69: loss=0.956790 -> best_m1s1k1_step69.pt
+[2026-01-11 22:51:04,975] INFO: Epoch [0/100] GlobalStep [100] Loss: 0.980611
+[2026-01-11 22:51:09,308] INFO: Deleted previous best: best_m1s1k1_step69.pt
+[2026-01-11 22:51:09,316] INFO: New best at step 153: loss=0.938702 -> best_m1s1k1_step153.pt
+[2026-01-11 22:51:13,159] INFO: Epoch [0/100] GlobalStep [200] Loss: 0.988317
+[2026-01-11 22:51:16,144] INFO: Deleted previous best: best_m1s1k1_step153.pt
+[2026-01-11 22:51:16,150] INFO: New best at step 236: loss=0.933535 -> best_m1s1k1_step236.pt
+[2026-01-11 22:51:21,063] INFO: Epoch [0/100] GlobalStep [300] Loss: 0.994850
+[2026-01-11 22:51:28,801] INFO: Epoch [0/100] GlobalStep [400] Loss: 0.985072
+[2026-01-11 22:51:36,504] INFO: Epoch [0/100] GlobalStep [500] Loss: 0.992510
+[2026-01-11 22:51:44,122] INFO: Epoch [0/100] GlobalStep [600] Loss: 1.005723
+[2026-01-11 22:51:51,782] INFO: Epoch [0/100] GlobalStep [700] Loss: 1.005737
+[2026-01-11 22:51:59,458] INFO: Epoch [0/100] GlobalStep [800] Loss: 0.955617
+[2026-01-11 22:52:07,184] INFO: Epoch [0/100] GlobalStep [900] Loss: 0.974451
+[2026-01-11 22:52:14,824] INFO: Epoch [0/100] GlobalStep [1000] Loss: 0.994682
+[2026-01-11 22:52:22,515] INFO: Epoch [0/100] GlobalStep [1100] Loss: 0.985520
+[2026-01-11 22:52:30,168] INFO: Epoch [0/100] GlobalStep [1200] Loss: 0.985551
+[2026-01-11 22:52:37,810] INFO: Epoch [0/100] GlobalStep [1300] Loss: 1.001590
+[2026-01-11 22:52:45,508] INFO: Epoch [0/100] GlobalStep [1400] Loss: 0.997071
+[2026-01-11 22:52:53,159] INFO: Epoch [0/100] GlobalStep [1500] Loss: 0.974300
+[2026-01-11 22:53:00,843] INFO: Epoch [0/100] GlobalStep [1600] Loss: 0.994529
+[2026-01-11 22:53:08,469] INFO: Epoch [0/100] GlobalStep [1700] Loss: 1.009773
+[2026-01-11 22:53:16,097] INFO: Epoch [0/100] GlobalStep [1800] Loss: 1.003994
+[2026-01-11 22:53:23,781] INFO: Epoch [0/100] GlobalStep [1900] Loss: 0.955674
+[2026-01-11 22:53:31,574] INFO: Epoch [0/100] GlobalStep [2000] Loss: 0.962468
+[2026-01-11 22:53:39,258] INFO: Epoch [0/100] GlobalStep [2100] Loss: 0.969654
+[2026-01-11 22:53:46,971] INFO: Epoch [0/100] GlobalStep [2200] Loss: 0.977129
+[2026-01-11 22:53:54,658] INFO: Epoch [0/100] GlobalStep [2300] Loss: 0.990839
+[2026-01-11 22:54:02,300] INFO: Epoch [0/100] GlobalStep [2400] Loss: 1.009798
+[2026-01-11 22:54:09,930] INFO: Epoch [0/100] GlobalStep [2500] Loss: 0.987793
+[2026-01-11 22:54:17,593] INFO: Epoch [0/100] GlobalStep [2600] Loss: 0.979840
+[2026-01-11 22:54:25,267] INFO: Epoch [0/100] GlobalStep [2700] Loss: 0.995667
+[2026-01-11 22:54:32,984] INFO: Epoch [0/100] GlobalStep [2800] Loss: 0.998808
+[2026-01-11 22:54:40,644] INFO: Epoch [0/100] GlobalStep [2900] Loss: 0.993117
+[2026-01-11 22:54:48,302] INFO: Epoch [0/100] GlobalStep [3000] Loss: 0.992967
+[2026-01-11 22:54:55,977] INFO: Epoch [0/100] GlobalStep [3100] Loss: 0.988523
+[2026-01-11 22:55:03,594] INFO: Epoch [0/100] GlobalStep [3200] Loss: 0.990207
+[2026-01-11 22:55:11,265] INFO: Epoch [0/100] GlobalStep [3300] Loss: 0.997592
+[2026-01-11 22:55:18,906] INFO: Epoch [0/100] GlobalStep [3400] Loss: 0.990754
+[2026-01-11 22:55:26,585] INFO: Epoch [0/100] GlobalStep [3500] Loss: 0.977589
+[2026-01-11 22:55:34,162] INFO: Epoch [0/100] GlobalStep [3600] Loss: 0.975107
+[2026-01-11 22:55:41,829] INFO: Epoch [0/100] GlobalStep [3700] Loss: 0.957017
+[2026-01-11 22:55:49,481] INFO: Epoch [0/100] GlobalStep [3800] Loss: 0.988051
+[2026-01-11 22:55:57,093] INFO: Epoch [0/100] GlobalStep [3900] Loss: 0.992373
+[2026-01-11 22:56:04,716] INFO: Epoch [0/100] GlobalStep [4000] Loss: 0.989336
+[2026-01-11 22:56:12,514] INFO: Epoch [0/100] GlobalStep [4100] Loss: 0.990265
+[2026-01-11 22:56:20,198] INFO: Epoch [0/100] GlobalStep [4200] Loss: 0.981227
+[2026-01-11 22:56:27,931] INFO: Epoch [0/100] GlobalStep [4300] Loss: 0.998834
+[2026-01-11 22:56:35,518] INFO: Epoch [0/100] GlobalStep [4400] Loss: 0.995167
+[2026-01-11 22:56:43,243] INFO: Epoch [0/100] GlobalStep [4500] Loss: 1.009143
+[2026-01-11 22:56:50,848] INFO: Epoch [0/100] GlobalStep [4600] Loss: 0.973654
+[2026-01-11 22:57:06,374] INFO: Using device: cuda (NVIDIA RTX 6000 Ada Generation)
+[2026-01-11 22:57:06,374] INFO: run_id=m1s1k1 | ckpt_dir=/home/gbsguest/Research/boson/BIO/ecggen/checkpoints/m1s1k1 | log_dir=/home/gbsguest/Research/boson/BIO/ecggen/logs/m1s1k1
+[2026-01-11 22:57:29,803] INFO: params_total=797777 train_size=720031 val_size=80004 batch_size=64 epochs=100 max_steps=1000000 log_every=1000 steps_per_epoch=11251 num_visible=3
+[2026-01-11 22:57:31,259] INFO: Epoch [0/100] GlobalStep [0] TrainLoss: 9.994971
+[2026-01-11 22:58:22,177] INFO: Using device: cuda (NVIDIA RTX 6000 Ada Generation)
+[2026-01-11 22:58:22,177] INFO: run_id=m1s1k1 | ckpt_dir=/home/gbsguest/Research/boson/BIO/ecggen/checkpoints/m1s1k1 | log_dir=/home/gbsguest/Research/boson/BIO/ecggen/logs/m1s1k1
+[2026-01-11 22:58:45,480] INFO: params_total=797777 train_size=720031 val_size=80004 batch_size=64 epochs=100 max_steps=1000000 log_every=1000 steps_per_epoch=11251 num_visible=3
+[2026-01-11 22:58:46,981] INFO: Epoch [0/100] GlobalStep [0] TrainLoss: 39.180302
+[2026-01-11 22:59:13,791] INFO: Using device: cuda (NVIDIA RTX 6000 Ada Generation)
+[2026-01-11 22:59:13,791] INFO: run_id=m1s1k1 | ckpt_dir=/home/gbsguest/Research/boson/BIO/ecggen/checkpoints/m1s1k1 | log_dir=/home/gbsguest/Research/boson/BIO/ecggen/logs/m1s1k1
+[2026-01-11 22:59:37,380] INFO: params_total=797777 train_size=720031 val_size=80004 batch_size=64 epochs=100 max_steps=1000000 log_every=1000 steps_per_epoch=11251 num_visible=3
+[2026-01-11 22:59:38,863] INFO: Epoch [0/100] GlobalStep [0] TrainLoss: 3.397826
+[2026-01-11 23:00:55,610] INFO: Epoch [0/100] GlobalStep [1000] TrainLoss: 0.975743
+[2026-01-11 23:01:16,049] INFO: Using device: cuda (NVIDIA RTX 6000 Ada Generation)
+[2026-01-11 23:01:16,050] INFO: run_id=m1s1k1 | ckpt_dir=/home/gbsguest/Research/boson/BIO/ecggen/checkpoints/m1s1k1 | log_dir=/home/gbsguest/Research/boson/BIO/ecggen/logs/m1s1k1
+[2026-01-11 23:01:42,998] INFO: params_total=797777 train_size=720031 val_size=80004 batch_size=64 epochs=100 max_steps=1000000 log_every=1000 steps_per_epoch=11251 num_visible=3
+[2026-01-11 23:01:44,674] INFO: Epoch [0/100] GlobalStep [0] TrainLoss: 149.454468
+[2026-01-11 23:02:24,514] INFO: Epoch [0/100] GlobalStep [2000] TrainLoss: 0.978801
+[2026-01-11 23:03:27,704] INFO: Epoch [0/100] GlobalStep [1000] TrainLoss: 0.975977
+[2026-01-11 23:04:07,874] INFO: Epoch [0/100] GlobalStep [3000] TrainLoss: 0.961909
+[2026-01-11 23:05:11,226] INFO: Epoch [0/100] GlobalStep [2000] TrainLoss: 0.981044
+[2026-01-11 23:05:51,079] INFO: Epoch [0/100] GlobalStep [4000] TrainLoss: 0.968854
+[2026-01-11 23:06:54,743] INFO: Epoch [0/100] GlobalStep [3000] TrainLoss: 0.975227
+[2026-01-11 23:07:34,184] INFO: Epoch [0/100] GlobalStep [5000] TrainLoss: 1.003845
+[2026-01-11 23:08:37,980] INFO: Epoch [0/100] GlobalStep [4000] TrainLoss: 0.976736
+[2026-01-11 23:09:17,471] INFO: Epoch [0/100] GlobalStep [6000] TrainLoss: 0.988473
+[2026-01-11 23:10:21,293] INFO: Epoch [0/100] GlobalStep [5000] TrainLoss: 0.985200
+[2026-01-11 23:11:00,835] INFO: Epoch [0/100] GlobalStep [7000] TrainLoss: 0.980919
+[2026-01-11 23:12:04,461] INFO: Epoch [0/100] GlobalStep [6000] TrainLoss: 0.993129
+[2026-01-11 23:12:44,337] INFO: Epoch [0/100] GlobalStep [8000] TrainLoss: 0.989932
+[2026-01-11 23:13:47,515] INFO: Epoch [0/100] GlobalStep [7000] TrainLoss: 0.960600
+[2026-01-11 23:14:28,156] INFO: Epoch [0/100] GlobalStep [9000] TrainLoss: 0.987231
+[2026-01-11 23:14:39,002] INFO: Using device: cuda (NVIDIA RTX 6000 Ada Generation)
+[2026-01-11 23:14:39,003] INFO: run_id=m1s1k1 | ckpt_dir=/home/gbsguest/Research/boson/BIO/ecggen/checkpoints/m1s1k1 | log_dir=/home/gbsguest/Research/boson/BIO/ecggen/logs/m1s1k1
+[2026-01-11 23:15:06,152] INFO: params_total=797777 train_size=720031 val_size=80004 batch_size=64 epochs=100 max_steps=1000000 log_every=1000 val_every=1000 mini_val_ratio=0.2 steps_per_epoch=11251 num_visible=3
+[2026-01-11 23:15:07,837] INFO: Epoch [0/100] GlobalStep [0] TrainLoss: 7.524505
+[2026-01-11 23:16:00,656] INFO: Epoch [0/100] GlobalStep [10000] TrainLoss: 0.991433
+[2026-01-11 23:16:50,681] INFO: Epoch [0/100] GlobalStep [1000] TrainLoss: 0.984501
+[2026-01-11 23:17:43,016] INFO: Epoch [0/100] GlobalStep [11000] TrainLoss: 0.977169
+[2026-01-11 23:18:58,195] INFO: Epoch [0/100] GlobalStep [1000] MiniValLoss: 0.985617 (best: inf)
+[2026-01-11 23:18:58,213] INFO: New best at step 1000: val_loss=0.985617 -> best_m1s1k1_step1000.pt
+[2026-01-11 23:20:15,867] INFO: Epoch [0/100] completed | TrainLoss: 0.975499 | ValLoss: 0.980898 | BestValLoss: inf
+[2026-01-11 23:20:15,874] INFO: New best at epoch 0: val_loss=0.980898 -> best_m1s1k1_epoch0.pt
+[2026-01-11 23:20:39,511] INFO: Epoch [0/100] GlobalStep [2000] TrainLoss: 0.999897
+[2026-01-11 23:21:33,642] INFO: Epoch [1/100] GlobalStep [12000] TrainLoss: 0.954883
+[2026-01-11 23:22:47,204] INFO: Epoch [0/100] GlobalStep [2000] MiniValLoss: 0.983794 (best: 0.985617)
+[2026-01-11 23:22:47,204] INFO: Deleted previous best: best_m1s1k1_step1000.pt
+[2026-01-11 23:22:47,210] INFO: New best at step 2000: val_loss=0.983794 -> best_m1s1k1_step2000.pt
+[2026-01-11 23:23:15,924] INFO: Epoch [1/100] GlobalStep [13000] TrainLoss: 0.909738
+[2026-01-11 23:24:29,569] INFO: Epoch [0/100] GlobalStep [3000] TrainLoss: 0.973744
+[2026-01-11 23:24:58,699] INFO: Epoch [1/100] GlobalStep [14000] TrainLoss: 0.971986
+[2026-01-11 23:26:36,723] INFO: Epoch [0/100] GlobalStep [3000] MiniValLoss: 0.969241 (best: 0.983794)
+[2026-01-11 23:26:36,724] INFO: Deleted previous best: best_m1s1k1_step2000.pt
+[2026-01-11 23:26:36,730] INFO: New best at step 3000: val_loss=0.969241 -> best_m1s1k1_step3000.pt
+[2026-01-11 23:26:40,300] INFO: Epoch [1/100] GlobalStep [15000] TrainLoss: 0.934636
+[2026-01-11 23:28:18,823] INFO: Epoch [0/100] GlobalStep [4000] TrainLoss: 1.002902
+[2026-01-11 23:28:22,863] INFO: Epoch [1/100] GlobalStep [16000] TrainLoss: 0.897223
+[2026-01-11 23:30:04,224] INFO: Epoch [1/100] GlobalStep [17000] TrainLoss: 0.999367
+[2026-01-11 23:30:25,649] INFO: Epoch [0/100] GlobalStep [4000] MiniValLoss: 0.985260 (best: 0.969241)
+[2026-01-11 23:31:47,025] INFO: Epoch [1/100] GlobalStep [18000] TrainLoss: 0.922400
+[2026-01-11 23:32:07,819] INFO: Epoch [0/100] GlobalStep [5000] TrainLoss: 1.009729
+[2026-01-11 23:33:28,925] INFO: Epoch [1/100] GlobalStep [19000] TrainLoss: 0.889333
+[2026-01-11 23:34:14,927] INFO: Epoch [0/100] GlobalStep [5000] MiniValLoss: 0.985457 (best: 0.969241)
+[2026-01-11 23:35:11,325] INFO: Epoch [1/100] GlobalStep [20000] TrainLoss: 0.941990
+[2026-01-11 23:35:57,731] INFO: Epoch [0/100] GlobalStep [6000] TrainLoss: 0.987804
+[2026-01-11 23:36:53,119] INFO: Epoch [1/100] GlobalStep [21000] TrainLoss: 0.960107
+[2026-01-11 23:38:05,306] INFO: Epoch [0/100] GlobalStep [6000] MiniValLoss: 0.984046 (best: 0.969241)
+[2026-01-11 23:38:34,390] INFO: Epoch [1/100] GlobalStep [22000] TrainLoss: 0.889486
+[2026-01-11 23:39:47,348] INFO: Epoch [0/100] GlobalStep [7000] TrainLoss: 0.961850
+[2026-01-11 23:41:32,481] INFO: Epoch [1/100] completed | TrainLoss: 0.934100 | ValLoss: 0.898158 | BestValLoss: 0.980898
+[2026-01-11 23:41:32,482] INFO: Deleted previous best: best_m1s1k1_epoch0.pt
+[2026-01-11 23:41:32,490] INFO: New best at epoch 1: val_loss=0.898158 -> best_m1s1k1_epoch1.pt
+[2026-01-11 23:41:53,758] INFO: Epoch [0/100] GlobalStep [7000] MiniValLoss: 0.984823 (best: 0.969241)
+[2026-01-11 23:42:24,191] INFO: Epoch [2/100] GlobalStep [23000] TrainLoss: 0.962960
+[2026-01-11 23:43:35,868] INFO: Epoch [0/100] GlobalStep [8000] TrainLoss: 0.988456
+[2026-01-11 23:44:06,578] INFO: Epoch [2/100] GlobalStep [24000] TrainLoss: 0.895588
+[2026-01-11 23:45:43,556] INFO: Epoch [0/100] GlobalStep [8000] MiniValLoss: 0.985188 (best: 0.969241)
+[2026-01-11 23:45:47,194] INFO: Epoch [2/100] GlobalStep [25000] TrainLoss: 0.873087
+[2026-01-11 23:47:25,665] INFO: Epoch [0/100] GlobalStep [9000] TrainLoss: 0.986237
+[2026-01-11 23:47:29,700] INFO: Epoch [2/100] GlobalStep [26000] TrainLoss: 0.901080
+[2026-01-11 23:49:10,217] INFO: Epoch [2/100] GlobalStep [27000] TrainLoss: 0.937816
+[2026-01-11 23:49:33,092] INFO: Epoch [0/100] GlobalStep [9000] MiniValLoss: 0.984750 (best: 0.969241)
+[2026-01-11 23:50:52,357] INFO: Epoch [2/100] GlobalStep [28000] TrainLoss: 0.929935
+[2026-01-11 23:51:15,498] INFO: Epoch [0/100] GlobalStep [10000] TrainLoss: 0.993049
+[2026-01-11 23:52:33,535] INFO: Epoch [2/100] GlobalStep [29000] TrainLoss: 0.956702
+[2026-01-11 23:53:22,524] INFO: Epoch [0/100] GlobalStep [10000] MiniValLoss: 0.985699 (best: 0.969241)
+[2026-01-11 23:54:15,197] INFO: Epoch [2/100] GlobalStep [30000] TrainLoss: 0.900101
+[2026-01-11 23:55:04,930] INFO: Epoch [0/100] GlobalStep [11000] TrainLoss: 0.992629
+[2026-01-11 23:55:56,828] INFO: Epoch [2/100] GlobalStep [31000] TrainLoss: 0.892239
+[2026-01-11 23:57:12,696] INFO: Epoch [0/100] GlobalStep [11000] MiniValLoss: 0.984187 (best: 0.969241)
+[2026-01-11 23:57:37,588] INFO: Epoch [2/100] GlobalStep [32000] TrainLoss: 0.876506
+[2026-01-11 23:59:19,068] INFO: Epoch [2/100] GlobalStep [33000] TrainLoss: 0.874287
+[2026-01-11 23:59:45,347] INFO: Epoch [0/100] completed | TrainLoss: 0.984302 | ValLoss: 0.985105 | BestValLoss: 0.969241
+[2026-01-12 00:01:03,695] INFO: Epoch [1/100] GlobalStep [12000] TrainLoss: 1.008560
+[2026-01-12 00:02:42,286] INFO: Epoch [2/100] completed | TrainLoss: 0.912518 | ValLoss: 0.952491 | BestValLoss: 0.898158
+[2026-01-12 00:03:08,363] INFO: Epoch [3/100] GlobalStep [34000] TrainLoss: 0.886849
+[2026-01-12 00:03:10,462] INFO: Epoch [1/100] GlobalStep [12000] MiniValLoss: 0.984291 (best: 0.969241)
+[2026-01-12 00:04:51,160] INFO: Epoch [3/100] GlobalStep [35000] TrainLoss: 0.881280
+[2026-01-12 00:04:52,717] INFO: Epoch [1/100] GlobalStep [13000] TrainLoss: 0.996436
+[2026-01-12 00:06:32,564] INFO: Epoch [3/100] GlobalStep [36000] TrainLoss: 0.872873
+[2026-01-12 00:07:00,590] INFO: Epoch [1/100] GlobalStep [13000] MiniValLoss: 0.985747 (best: 0.969241)
+[2026-01-12 00:08:15,029] INFO: Epoch [3/100] GlobalStep [37000] TrainLoss: 0.875565
+[2026-01-12 00:08:42,759] INFO: Epoch [1/100] GlobalStep [14000] TrainLoss: 1.001269
+[2026-01-12 00:09:57,007] INFO: Epoch [3/100] GlobalStep [38000] TrainLoss: 0.917537
+[2026-01-12 00:10:50,378] INFO: Epoch [1/100] GlobalStep [14000] MiniValLoss: 0.984652 (best: 0.969241)
+[2026-01-12 00:11:38,631] INFO: Epoch [3/100] GlobalStep [39000] TrainLoss: 0.926594
+[2026-01-12 00:12:32,752] INFO: Epoch [1/100] GlobalStep [15000] TrainLoss: 0.998614
+[2026-01-12 00:13:20,709] INFO: Epoch [3/100] GlobalStep [40000] TrainLoss: 0.899285
+[2026-01-12 00:14:39,684] INFO: Epoch [1/100] GlobalStep [15000] MiniValLoss: 0.983748 (best: 0.969241)
+[2026-01-12 00:15:02,321] INFO: Epoch [3/100] GlobalStep [41000] TrainLoss: 0.884297
+[2026-01-12 00:16:21,878] INFO: Epoch [1/100] GlobalStep [16000] TrainLoss: 0.952531
+[2026-01-12 00:16:44,748] INFO: Epoch [3/100] GlobalStep [42000] TrainLoss: 0.987152
+[2026-01-12 00:18:25,694] INFO: Epoch [3/100] GlobalStep [43000] TrainLoss: 0.871989
+[2026-01-12 00:18:29,669] INFO: Epoch [1/100] GlobalStep [16000] MiniValLoss: 0.984497 (best: 0.969241)
+[2026-01-12 00:20:08,298] INFO: Epoch [3/100] GlobalStep [44000] TrainLoss: 0.905185
+[2026-01-12 00:20:11,870] INFO: Epoch [1/100] GlobalStep [17000] TrainLoss: 0.980112
+[2026-01-12 00:21:49,655] INFO: Epoch [3/100] GlobalStep [45000] TrainLoss: 0.932796
+[2026-01-12 00:22:18,606] INFO: Epoch [1/100] GlobalStep [17000] MiniValLoss: 0.984319 (best: 0.969241)
+[2026-01-12 00:23:57,707] INFO: Epoch [3/100] completed | TrainLoss: 0.905836 | ValLoss: 0.920871 | BestValLoss: 0.898158
+[2026-01-12 00:23:59,905] INFO: Epoch [1/100] GlobalStep [18000] TrainLoss: 0.994866
+[2026-01-12 00:25:39,833] INFO: Epoch [4/100] GlobalStep [46000] TrainLoss: 0.873049
+[2026-01-12 00:26:07,450] INFO: Epoch [1/100] GlobalStep [18000] MiniValLoss: 0.984905 (best: 0.969241)
+[2026-01-12 00:27:21,818] INFO: Epoch [4/100] GlobalStep [47000] TrainLoss: 0.891795
+[2026-01-12 00:27:49,407] INFO: Epoch [1/100] GlobalStep [19000] TrainLoss: 0.972542
+[2026-01-12 00:29:03,383] INFO: Epoch [4/100] GlobalStep [48000] TrainLoss: 0.960911
+[2026-01-12 00:29:56,513] INFO: Epoch [1/100] GlobalStep [19000] MiniValLoss: 0.985068 (best: 0.969241)
+[2026-01-12 00:30:45,262] INFO: Epoch [4/100] GlobalStep [49000] TrainLoss: 0.904027
+[2026-01-12 00:31:38,632] INFO: Epoch [1/100] GlobalStep [20000] TrainLoss: 0.992902
+[2026-01-12 00:32:27,357] INFO: Epoch [4/100] GlobalStep [50000] TrainLoss: 0.914165
+[2026-01-12 00:33:47,378] INFO: Epoch [1/100] GlobalStep [20000] MiniValLoss: 0.985781 (best: 0.969241)
+[2026-01-12 00:34:09,325] INFO: Epoch [4/100] GlobalStep [51000] TrainLoss: 0.964728
+[2026-01-12 00:35:29,652] INFO: Epoch [1/100] GlobalStep [21000] TrainLoss: 0.998982
+[2026-01-12 00:35:51,917] INFO: Epoch [4/100] GlobalStep [52000] TrainLoss: 0.885517
+[2026-01-12 00:37:32,853] INFO: Epoch [4/100] GlobalStep [53000] TrainLoss: 0.907940
+[2026-01-12 00:37:36,685] INFO: Epoch [1/100] GlobalStep [21000] MiniValLoss: 0.984003 (best: 0.969241)
+[2026-01-12 00:39:15,132] INFO: Epoch [4/100] GlobalStep [54000] TrainLoss: 0.860314
+[2026-01-12 00:39:19,145] INFO: Epoch [1/100] GlobalStep [22000] TrainLoss: 1.004113
+[2026-01-12 00:40:56,513] INFO: Epoch [4/100] GlobalStep [55000] TrainLoss: 0.858913
+[2026-01-12 00:41:26,193] INFO: Epoch [1/100] GlobalStep [22000] MiniValLoss: 0.984403 (best: 0.969241)
+[2026-01-12 00:42:38,287] INFO: Epoch [4/100] GlobalStep [56000] TrainLoss: 0.980494
+[2026-01-12 00:44:24,015] INFO: Epoch [1/100] completed | TrainLoss: 0.985066 | ValLoss: 0.984807 | BestValLoss: 0.969241
+[2026-01-12 00:45:10,868] INFO: Epoch [4/100] completed | TrainLoss: 0.910179 | ValLoss: 0.883962 | BestValLoss: 0.898158
+[2026-01-12 00:45:10,869] INFO: Deleted previous best: best_m1s1k1_epoch1.pt
+[2026-01-12 00:45:10,876] INFO: New best at epoch 4: val_loss=0.883962 -> best_m1s1k1_epoch4.pt
+[2026-01-12 00:45:16,136] INFO: Epoch [2/100] GlobalStep [23000] TrainLoss: 0.984907
+[2026-01-12 00:46:27,308] INFO: Epoch [5/100] GlobalStep [57000] TrainLoss: 0.925170
+[2026-01-12 00:47:24,580] INFO: Epoch [2/100] GlobalStep [23000] MiniValLoss: 0.985704 (best: 0.969241)
+[2026-01-12 00:48:08,599] INFO: Epoch [5/100] GlobalStep [58000] TrainLoss: 0.901887
+[2026-01-12 00:49:07,198] INFO: Epoch [2/100] GlobalStep [24000] TrainLoss: 0.980936
+[2026-01-12 00:49:50,558] INFO: Epoch [5/100] GlobalStep [59000] TrainLoss: 0.914396
+[2026-01-12 00:51:14,307] INFO: Epoch [2/100] GlobalStep [24000] MiniValLoss: 0.985367 (best: 0.969241)
+[2026-01-12 00:51:31,933] INFO: Epoch [5/100] GlobalStep [60000] TrainLoss: 0.970134
+[2026-01-12 00:52:56,560] INFO: Epoch [2/100] GlobalStep [25000] TrainLoss: 0.976057
+[2026-01-12 00:53:14,502] INFO: Epoch [5/100] GlobalStep [61000] TrainLoss: 0.855401
+[2026-01-12 00:54:55,683] INFO: Epoch [5/100] GlobalStep [62000] TrainLoss: 0.881555
+[2026-01-12 00:55:02,993] INFO: Epoch [2/100] GlobalStep [25000] MiniValLoss: 0.983754 (best: 0.969241)
+[2026-01-12 00:56:38,370] INFO: Epoch [5/100] GlobalStep [63000] TrainLoss: 0.865336
+[2026-01-12 00:56:45,354] INFO: Epoch [2/100] GlobalStep [26000] TrainLoss: 0.982096
+[2026-01-12 00:58:19,768] INFO: Epoch [5/100] GlobalStep [64000] TrainLoss: 0.936048
+[2026-01-12 00:58:52,763] INFO: Epoch [2/100] GlobalStep [26000] MiniValLoss: 0.984458 (best: 0.969241)
+[2026-01-12 01:00:01,780] INFO: Epoch [5/100] GlobalStep [65000] TrainLoss: 0.892446
+[2026-01-12 01:00:35,047] INFO: Epoch [2/100] GlobalStep [27000] TrainLoss: 0.999810
+[2026-01-12 01:01:43,362] INFO: Epoch [5/100] GlobalStep [66000] TrainLoss: 0.878391
+[2026-01-12 01:02:42,286] INFO: Epoch [2/100] GlobalStep [27000] MiniValLoss: 0.984071 (best: 0.969241)
+[2026-01-12 01:03:24,780] INFO: Epoch [5/100] GlobalStep [67000] TrainLoss: 0.911623
+[2026-01-12 01:04:24,395] INFO: Epoch [2/100] GlobalStep [28000] TrainLoss: 0.993113
+[2026-01-12 01:06:23,617] INFO: Epoch [5/100] completed | TrainLoss: 0.899032 | ValLoss: 0.884467 | BestValLoss: 0.883962
+[2026-01-12 01:06:30,419] INFO: Epoch [2/100] GlobalStep [28000] MiniValLoss: 0.984937 (best: 0.969241)
+[2026-01-12 01:07:15,433] INFO: Epoch [6/100] GlobalStep [68000] TrainLoss: 0.986392
+[2026-01-12 01:08:12,888] INFO: Epoch [2/100] GlobalStep [29000] TrainLoss: 0.984905
+[2026-01-12 01:08:57,452] INFO: Epoch [6/100] GlobalStep [69000] TrainLoss: 0.900154
+[2026-01-12 01:10:20,955] INFO: Epoch [2/100] GlobalStep [29000] MiniValLoss: 0.984683 (best: 0.969241)
+[2026-01-12 01:10:38,553] INFO: Epoch [6/100] GlobalStep [70000] TrainLoss: 0.886919
+[2026-01-12 01:12:03,658] INFO: Epoch [2/100] GlobalStep [30000] TrainLoss: 0.998260
+[2026-01-12 01:12:20,769] INFO: Epoch [6/100] GlobalStep [71000] TrainLoss: 0.894086
+[2026-01-12 01:14:01,558] INFO: Epoch [6/100] GlobalStep [72000] TrainLoss: 0.979336
+[2026-01-12 01:14:11,466] INFO: Epoch [2/100] GlobalStep [30000] MiniValLoss: 0.983556 (best: 0.969241)
+[2026-01-12 01:15:43,839] INFO: Epoch [6/100] GlobalStep [73000] TrainLoss: 0.898698
+[2026-01-12 01:15:53,639] INFO: Epoch [2/100] GlobalStep [31000] TrainLoss: 1.002997
+[2026-01-12 01:17:25,333] INFO: Epoch [6/100] GlobalStep [74000] TrainLoss: 0.888622
+[2026-01-12 01:18:01,263] INFO: Epoch [2/100] GlobalStep [31000] MiniValLoss: 0.984753 (best: 0.969241)
+[2026-01-12 01:19:07,146] INFO: Epoch [6/100] GlobalStep [75000] TrainLoss: 0.882060
+[2026-01-12 01:19:43,700] INFO: Epoch [2/100] GlobalStep [32000] TrainLoss: 0.992186
+[2026-01-12 01:20:49,442] INFO: Epoch [6/100] GlobalStep [76000] TrainLoss: 0.969777
+[2026-01-12 01:21:51,207] INFO: Epoch [2/100] GlobalStep [32000] MiniValLoss: 0.984681 (best: 0.969241)
+[2026-01-12 01:22:31,161] INFO: Epoch [6/100] GlobalStep [77000] TrainLoss: 0.906630
+[2026-01-12 01:23:33,549] INFO: Epoch [2/100] GlobalStep [33000] TrainLoss: 0.996085
+[2026-01-12 01:24:13,544] INFO: Epoch [6/100] GlobalStep [78000] TrainLoss: 0.874586
+[2026-01-12 01:25:40,910] INFO: Epoch [2/100] GlobalStep [33000] MiniValLoss: 0.984281 (best: 0.969241)
+[2026-01-12 01:27:36,761] INFO: Epoch [6/100] completed | TrainLoss: 0.901018 | ValLoss: 0.976476 | BestValLoss: 0.883962
+[2026-01-12 01:28:02,630] INFO: Epoch [7/100] GlobalStep [79000] TrainLoss: 0.923387
+[2026-01-12 01:29:04,973] INFO: Epoch [2/100] completed | TrainLoss: 0.985077 | ValLoss: 0.984844 | BestValLoss: 0.969241
+[2026-01-12 01:29:31,610] INFO: Epoch [3/100] GlobalStep [34000] TrainLoss: 0.978337
+[2026-01-12 01:29:44,141] INFO: Epoch [7/100] GlobalStep [80000] TrainLoss: 0.854545
+[2026-01-12 01:31:24,980] INFO: Epoch [7/100] GlobalStep [81000] TrainLoss: 0.992401
+[2026-01-12 01:31:38,914] INFO: Epoch [3/100] GlobalStep [34000] MiniValLoss: 0.984926 (best: 0.969241)
+[2026-01-12 01:33:07,368] INFO: Epoch [7/100] GlobalStep [82000] TrainLoss: 0.862754
+[2026-01-12 01:33:21,360] INFO: Epoch [3/100] GlobalStep [35000] TrainLoss: 1.009624
+[2026-01-12 01:34:48,697] INFO: Epoch [7/100] GlobalStep [83000] TrainLoss: 0.860117
+[2026-01-12 01:35:28,657] INFO: Epoch [3/100] GlobalStep [35000] MiniValLoss: 0.985464 (best: 0.969241)
+[2026-01-12 01:36:30,425] INFO: Epoch [7/100] GlobalStep [84000] TrainLoss: 0.878610
+[2026-01-12 01:37:11,495] INFO: Epoch [3/100] GlobalStep [36000] TrainLoss: 0.992010
+[2026-01-12 01:38:12,299] INFO: Epoch [7/100] GlobalStep [85000] TrainLoss: 0.897156
+[2026-01-12 01:39:18,673] INFO: Epoch [3/100] GlobalStep [36000] MiniValLoss: 0.985229 (best: 0.969241)
+[2026-01-12 01:39:54,189] INFO: Epoch [7/100] GlobalStep [86000] TrainLoss: 0.869101
+[2026-01-12 01:41:01,111] INFO: Epoch [3/100] GlobalStep [37000] TrainLoss: 0.990256
+[2026-01-12 01:41:36,226] INFO: Epoch [7/100] GlobalStep [87000] TrainLoss: 0.862866
+[2026-01-12 01:43:08,269] INFO: Epoch [3/100] GlobalStep [37000] MiniValLoss: 0.985795 (best: 0.969241)
+[2026-01-12 01:43:17,373] INFO: Epoch [7/100] GlobalStep [88000] TrainLoss: 0.887030
+[2026-01-12 01:44:50,696] INFO: Epoch [3/100] GlobalStep [38000] TrainLoss: 0.964255
+[2026-01-12 01:45:00,560] INFO: Epoch [7/100] GlobalStep [89000] TrainLoss: 0.891582
+[2026-01-12 01:46:41,633] INFO: Epoch [7/100] GlobalStep [90000] TrainLoss: 0.886438
+[2026-01-12 01:46:57,296] INFO: Epoch [3/100] GlobalStep [38000] MiniValLoss: 0.985399 (best: 0.969241)
+[2026-01-12 01:48:39,858] INFO: Epoch [3/100] GlobalStep [39000] TrainLoss: 0.983803
+[2026-01-12 01:48:50,180] INFO: Epoch [7/100] completed | TrainLoss: 0.894301 | ValLoss: 0.897932 | BestValLoss: 0.883962
+[2026-01-12 01:50:31,784] INFO: Epoch [8/100] GlobalStep [91000] TrainLoss: 0.888394
+[2026-01-12 01:50:46,238] INFO: Epoch [3/100] GlobalStep [39000] MiniValLoss: 0.985581 (best: 0.969241)
+[2026-01-12 01:52:13,939] INFO: Epoch [8/100] GlobalStep [92000] TrainLoss: 0.854271
+[2026-01-12 01:52:28,883] INFO: Epoch [3/100] GlobalStep [40000] TrainLoss: 0.972490
+[2026-01-12 01:53:55,508] INFO: Epoch [8/100] GlobalStep [93000] TrainLoss: 0.899891
+[2026-01-12 01:54:36,031] INFO: Epoch [3/100] GlobalStep [40000] MiniValLoss: 0.984748 (best: 0.969241)
+[2026-01-12 01:55:37,610] INFO: Epoch [8/100] GlobalStep [94000] TrainLoss: 0.897725
+[2026-01-12 01:56:18,706] INFO: Epoch [3/100] GlobalStep [41000] TrainLoss: 0.989049
+[2026-01-12 01:57:19,440] INFO: Epoch [8/100] GlobalStep [95000] TrainLoss: 0.906585
+[2026-01-12 01:58:26,192] INFO: Epoch [3/100] GlobalStep [41000] MiniValLoss: 0.983512 (best: 0.969241)
+[2026-01-12 01:59:01,026] INFO: Epoch [8/100] GlobalStep [96000] TrainLoss: 0.865823
+[2026-01-12 02:00:08,609] INFO: Epoch [3/100] GlobalStep [42000] TrainLoss: 0.999341
+[2026-01-12 02:00:43,621] INFO: Epoch [8/100] GlobalStep [97000] TrainLoss: 0.859061
+[2026-01-12 02:02:16,049] INFO: Epoch [3/100] GlobalStep [42000] MiniValLoss: 0.984280 (best: 0.969241)
+[2026-01-12 02:02:24,721] INFO: Epoch [8/100] GlobalStep [98000] TrainLoss: 0.868653
+[2026-01-12 02:03:58,226] INFO: Epoch [3/100] GlobalStep [43000] TrainLoss: 0.983200
+[2026-01-12 02:04:07,542] INFO: Epoch [8/100] GlobalStep [99000] TrainLoss: 0.866213
+[2026-01-12 02:05:48,715] INFO: Epoch [8/100] GlobalStep [100000] TrainLoss: 0.875219
+[2026-01-12 02:06:05,630] INFO: Epoch [3/100] GlobalStep [43000] MiniValLoss: 0.984104 (best: 0.969241)
+[2026-01-12 02:07:30,911] INFO: Epoch [8/100] GlobalStep [101000] TrainLoss: 0.894093
+[2026-01-12 02:07:48,000] INFO: Epoch [3/100] GlobalStep [44000] TrainLoss: 0.990284
+[2026-01-12 02:09:54,618] INFO: Epoch [3/100] GlobalStep [44000] MiniValLoss: 0.985420 (best: 0.969241)
+[2026-01-12 02:10:03,948] INFO: Epoch [8/100] completed | TrainLoss: 0.889340 | ValLoss: 0.871328 | BestValLoss: 0.883962
+[2026-01-12 02:10:03,949] INFO: Deleted previous best: best_m1s1k1_epoch4.pt
+[2026-01-12 02:10:03,957] INFO: New best at epoch 8: val_loss=0.871328 -> best_m1s1k1_epoch8.pt
+[2026-01-12 02:11:21,098] INFO: Epoch [9/100] GlobalStep [102000] TrainLoss: 0.857697
+[2026-01-12 02:11:37,010] INFO: Epoch [3/100] GlobalStep [45000] TrainLoss: 1.005937
+[2026-01-12 02:13:02,523] INFO: Epoch [9/100] GlobalStep [103000] TrainLoss: 0.874472
+[2026-01-12 02:13:44,136] INFO: Epoch [3/100] GlobalStep [45000] MiniValLoss: 0.984159 (best: 0.969241)
+[2026-01-12 02:14:44,064] INFO: Epoch [9/100] GlobalStep [104000] TrainLoss: 0.845515
+[2026-01-12 02:15:52,097] INFO: Epoch [3/100] completed | TrainLoss: 0.985043 | ValLoss: 0.984886 | BestValLoss: 0.969241
+[2026-01-12 02:16:25,452] INFO: Epoch [9/100] GlobalStep [105000] TrainLoss: 0.866735
+[2026-01-12 02:17:35,803] INFO: Epoch [4/100] GlobalStep [46000] TrainLoss: 0.992138
+[2026-01-12 02:18:07,460] INFO: Epoch [9/100] GlobalStep [106000] TrainLoss: 0.885782
+[2026-01-12 02:19:42,908] INFO: Epoch [4/100] GlobalStep [46000] MiniValLoss: 0.984349 (best: 0.969241)
+[2026-01-12 02:19:48,642] INFO: Epoch [9/100] GlobalStep [107000] TrainLoss: 0.867376
+[2026-01-12 02:21:25,039] INFO: Epoch [4/100] GlobalStep [47000] TrainLoss: 0.986386
+[2026-01-12 02:21:31,389] INFO: Epoch [9/100] GlobalStep [108000] TrainLoss: 0.869877
+[2026-01-12 02:23:12,233] INFO: Epoch [9/100] GlobalStep [109000] TrainLoss: 0.912511
+[2026-01-12 02:23:32,947] INFO: Epoch [4/100] GlobalStep [47000] MiniValLoss: 0.984185 (best: 0.969241)
+[2026-01-12 02:24:54,007] INFO: Epoch [9/100] GlobalStep [110000] TrainLoss: 0.872018
+[2026-01-12 02:25:15,479] INFO: Epoch [4/100] GlobalStep [48000] TrainLoss: 0.978637
+[2026-01-12 02:26:35,745] INFO: Epoch [9/100] GlobalStep [111000] TrainLoss: 0.878938
+[2026-01-12 02:27:23,220] INFO: Epoch [4/100] GlobalStep [48000] MiniValLoss: 0.985092 (best: 0.969241)
+[2026-01-12 02:28:17,464] INFO: Epoch [9/100] GlobalStep [112000] TrainLoss: 0.919218
+[2026-01-12 02:29:05,930] INFO: Epoch [4/100] GlobalStep [49000] TrainLoss: 0.980145
+[2026-01-12 02:31:12,342] INFO: Epoch [4/100] GlobalStep [49000] MiniValLoss: 0.984779 (best: 0.969241)
+[2026-01-12 02:31:16,260] INFO: Epoch [9/100] completed | TrainLoss: 0.892419 | ValLoss: 0.871621 | BestValLoss: 0.871328
+[2026-01-12 02:32:07,405] INFO: Epoch [10/100] GlobalStep [113000] TrainLoss: 0.888162
+[2026-01-12 02:32:54,805] INFO: Epoch [4/100] GlobalStep [50000] TrainLoss: 0.993350
+[2026-01-12 02:33:49,178] INFO: Epoch [10/100] GlobalStep [114000] TrainLoss: 0.879614
+[2026-01-12 02:35:02,177] INFO: Epoch [4/100] GlobalStep [50000] MiniValLoss: 0.985226 (best: 0.969241)
+[2026-01-12 02:35:30,336] INFO: Epoch [10/100] GlobalStep [115000] TrainLoss: 0.865067
+[2026-01-12 02:36:44,797] INFO: Epoch [4/100] GlobalStep [51000] TrainLoss: 0.995121
+[2026-01-12 02:37:12,319] INFO: Epoch [10/100] GlobalStep [116000] TrainLoss: 0.947350
+[2026-01-12 02:38:52,107] INFO: Epoch [4/100] GlobalStep [51000] MiniValLoss: 0.984843 (best: 0.969241)
+[2026-01-12 02:38:53,057] INFO: Epoch [10/100] GlobalStep [117000] TrainLoss: 0.951353
+[2026-01-12 02:40:34,458] INFO: Epoch [4/100] GlobalStep [52000] TrainLoss: 0.983315
+[2026-01-12 02:40:35,532] INFO: Epoch [10/100] GlobalStep [118000] TrainLoss: 0.858327
+[2026-01-12 02:42:16,934] INFO: Epoch [10/100] GlobalStep [119000] TrainLoss: 0.884530
+[2026-01-12 02:42:41,007] INFO: Epoch [4/100] GlobalStep [52000] MiniValLoss: 0.985317 (best: 0.969241)
+[2026-01-12 02:43:58,838] INFO: Epoch [10/100] GlobalStep [120000] TrainLoss: 0.873517
+[2026-01-12 02:44:23,378] INFO: Epoch [4/100] GlobalStep [53000] TrainLoss: 0.980266
+[2026-01-12 02:45:40,034] INFO: Epoch [10/100] GlobalStep [121000] TrainLoss: 0.883715
+[2026-01-12 02:46:30,250] INFO: Epoch [4/100] GlobalStep [53000] MiniValLoss: 0.984079 (best: 0.969241)
+[2026-01-12 02:47:21,775] INFO: Epoch [10/100] GlobalStep [122000] TrainLoss: 0.861558
+[2026-01-12 02:48:12,861] INFO: Epoch [4/100] GlobalStep [54000] TrainLoss: 0.968042
+[2026-01-12 02:49:03,150] INFO: Epoch [10/100] GlobalStep [123000] TrainLoss: 0.915148
+[2026-01-12 02:50:20,222] INFO: Epoch [4/100] GlobalStep [54000] MiniValLoss: 0.984760 (best: 0.969241)
+[2026-01-12 02:52:01,662] INFO: Epoch [4/100] GlobalStep [55000] TrainLoss: 0.957600
+[2026-01-12 02:52:27,978] INFO: Epoch [10/100] completed | TrainLoss: 0.891820 | ValLoss: 0.889851 | BestValLoss: 0.871328
+[2026-01-12 02:52:53,111] INFO: Epoch [11/100] GlobalStep [124000] TrainLoss: 0.899235
+[2026-01-12 02:54:08,422] INFO: Epoch [4/100] GlobalStep [55000] MiniValLoss: 0.983671 (best: 0.969241)
+[2026-01-12 02:54:35,133] INFO: Epoch [11/100] GlobalStep [125000] TrainLoss: 0.865043
+[2026-01-12 02:55:50,650] INFO: Epoch [4/100] GlobalStep [56000] TrainLoss: 0.995958
+[2026-01-12 02:56:17,310] INFO: Epoch [11/100] GlobalStep [126000] TrainLoss: 0.865354
+[2026-01-12 02:57:58,460] INFO: Epoch [11/100] GlobalStep [127000] TrainLoss: 0.878216
+[2026-01-12 02:57:58,520] INFO: Epoch [4/100] GlobalStep [56000] MiniValLoss: 0.985247 (best: 0.969241)
+[2026-01-12 02:59:39,812] INFO: Epoch [11/100] GlobalStep [128000] TrainLoss: 0.887013
+[2026-01-12 03:00:32,483] INFO: Epoch [4/100] completed | TrainLoss: 0.985082 | ValLoss: 0.984872 | BestValLoss: 0.969241
+[2026-01-12 03:01:21,783] INFO: Epoch [11/100] GlobalStep [129000] TrainLoss: 0.871533
+[2026-01-12 03:01:50,795] INFO: Epoch [5/100] GlobalStep [57000] TrainLoss: 0.989867
+[2026-01-12 03:03:03,187] INFO: Epoch [11/100] GlobalStep [130000] TrainLoss: 0.900094
+[2026-01-12 03:03:56,758] INFO: Epoch [5/100] GlobalStep [57000] MiniValLoss: 0.985442 (best: 0.969241)
+[2026-01-12 03:04:45,086] INFO: Epoch [11/100] GlobalStep [131000] TrainLoss: 0.868451
+[2026-01-12 03:05:39,144] INFO: Epoch [5/100] GlobalStep [58000] TrainLoss: 0.995556
+[2026-01-12 03:06:27,024] INFO: Epoch [11/100] GlobalStep [132000] TrainLoss: 0.870219
+[2026-01-12 03:07:46,285] INFO: Epoch [5/100] GlobalStep [58000] MiniValLoss: 0.985491 (best: 0.969241)
+[2026-01-12 03:08:08,384] INFO: Epoch [11/100] GlobalStep [133000] TrainLoss: 0.935797
+[2026-01-12 03:09:28,872] INFO: Epoch [5/100] GlobalStep [59000] TrainLoss: 0.998754
+[2026-01-12 03:09:51,230] INFO: Epoch [11/100] GlobalStep [134000] TrainLoss: 0.870978
+[2026-01-12 03:11:32,511] INFO: Epoch [11/100] GlobalStep [135000] TrainLoss: 0.841565
+[2026-01-12 03:11:35,604] INFO: Epoch [5/100] GlobalStep [59000] MiniValLoss: 0.984670 (best: 0.969241)
+[2026-01-12 03:13:17,017] INFO: Epoch [5/100] GlobalStep [60000] TrainLoss: 0.985281
+[2026-01-12 03:13:41,738] INFO: Epoch [11/100] completed | TrainLoss: 0.885560 | ValLoss: 0.870468 | BestValLoss: 0.871328
+[2026-01-12 03:13:41,739] INFO: Deleted previous best: best_m1s1k1_epoch8.pt
+[2026-01-12 03:13:41,745] INFO: New best at epoch 11: val_loss=0.870468 -> best_m1s1k1_epoch11.pt
+[2026-01-12 03:15:22,727] INFO: Epoch [12/100] GlobalStep [136000] TrainLoss: 0.930529
+[2026-01-12 03:15:24,494] INFO: Epoch [5/100] GlobalStep [60000] MiniValLoss: 0.982360 (best: 0.969241)
+[2026-01-12 03:17:06,040] INFO: Epoch [12/100] GlobalStep [137000] TrainLoss: 0.910063
+[2026-01-12 03:17:06,519] INFO: Epoch [5/100] GlobalStep [61000] TrainLoss: 0.979704
+[2026-01-12 03:18:47,141] INFO: Epoch [12/100] GlobalStep [138000] TrainLoss: 0.879569
+[2026-01-12 03:19:14,144] INFO: Epoch [5/100] GlobalStep [61000] MiniValLoss: 0.984681 (best: 0.969241)
+[2026-01-12 03:20:28,784] INFO: Epoch [12/100] GlobalStep [139000] TrainLoss: 0.884112
+[2026-01-12 03:20:56,208] INFO: Epoch [5/100] GlobalStep [62000] TrainLoss: 0.991633
+[2026-01-12 03:22:10,797] INFO: Epoch [12/100] GlobalStep [140000] TrainLoss: 0.882273
+[2026-01-12 03:23:03,426] INFO: Epoch [5/100] GlobalStep [62000] MiniValLoss: 0.984236 (best: 0.969241)
+[2026-01-12 03:23:52,329] INFO: Epoch [12/100] GlobalStep [141000] TrainLoss: 0.881005
+[2026-01-12 03:24:45,668] INFO: Epoch [5/100] GlobalStep [63000] TrainLoss: 1.000377
+[2026-01-12 03:25:33,939] INFO: Epoch [12/100] GlobalStep [142000] TrainLoss: 0.899594
+[2026-01-12 03:26:53,316] INFO: Epoch [5/100] GlobalStep [63000] MiniValLoss: 0.984438 (best: 0.969241)
+[2026-01-12 03:27:14,826] INFO: Epoch [12/100] GlobalStep [143000] TrainLoss: 0.864215
+[2026-01-12 03:28:35,712] INFO: Epoch [5/100] GlobalStep [64000] TrainLoss: 0.961834
+[2026-01-12 03:28:56,905] INFO: Epoch [12/100] GlobalStep [144000] TrainLoss: 0.891756
+[2026-01-12 03:30:38,315] INFO: Epoch [12/100] GlobalStep [145000] TrainLoss: 0.853215
+[2026-01-12 03:30:43,145] INFO: Epoch [5/100] GlobalStep [64000] MiniValLoss: 0.986111 (best: 0.969241)
+[2026-01-12 03:32:20,787] INFO: Epoch [12/100] GlobalStep [146000] TrainLoss: 0.844205
+[2026-01-12 03:32:25,240] INFO: Epoch [5/100] GlobalStep [65000] TrainLoss: 0.979840
+[2026-01-12 03:34:30,424] INFO: Epoch [5/100] GlobalStep [65000] MiniValLoss: 0.984702 (best: 0.969241)
+[2026-01-12 03:34:54,528] INFO: Epoch [12/100] completed | TrainLoss: 0.885248 | ValLoss: 0.916030 | BestValLoss: 0.870468
+[2026-01-12 03:36:11,494] INFO: Epoch [13/100] GlobalStep [147000] TrainLoss: 0.877481
+[2026-01-12 03:36:12,705] INFO: Epoch [5/100] GlobalStep [66000] TrainLoss: 0.959044
+[2026-01-12 03:37:52,531] INFO: Epoch [13/100] GlobalStep [148000] TrainLoss: 0.909427
+[2026-01-12 03:38:19,778] INFO: Epoch [5/100] GlobalStep [66000] MiniValLoss: 0.984597 (best: 0.969241)
+[2026-01-12 03:39:35,040] INFO: Epoch [13/100] GlobalStep [149000] TrainLoss: 0.864109
+[2026-01-12 03:40:02,167] INFO: Epoch [5/100] GlobalStep [67000] TrainLoss: 0.987907
+[2026-01-12 03:41:16,641] INFO: Epoch [13/100] GlobalStep [150000] TrainLoss: 0.854085
+[2026-01-12 03:42:09,154] INFO: Epoch [5/100] GlobalStep [67000] MiniValLoss: 0.985005 (best: 0.969241)
+[2026-01-12 03:42:58,245] INFO: Epoch [13/100] GlobalStep [151000] TrainLoss: 0.912674
+[2026-01-12 03:44:39,232] INFO: Epoch [13/100] GlobalStep [152000] TrainLoss: 0.902183
+[2026-01-12 03:45:09,274] INFO: Epoch [5/100] completed | TrainLoss: 0.985030 | ValLoss: 0.984759 | BestValLoss: 0.969241
+[2026-01-12 03:46:01,163] INFO: Epoch [6/100] GlobalStep [68000] TrainLoss: 0.988308
+[2026-01-12 03:46:21,385] INFO: Epoch [13/100] GlobalStep [153000] TrainLoss: 0.878269
+[2026-01-12 03:48:02,608] INFO: Epoch [13/100] GlobalStep [154000] TrainLoss: 0.876938
+[2026-01-12 03:48:08,047] INFO: Epoch [6/100] GlobalStep [68000] MiniValLoss: 0.983843 (best: 0.969241)
+[2026-01-12 03:49:44,940] INFO: Epoch [13/100] GlobalStep [155000] TrainLoss: 0.866840
+[2026-01-12 03:49:50,350] INFO: Epoch [6/100] GlobalStep [69000] TrainLoss: 0.972035
+[2026-01-12 03:51:26,535] INFO: Epoch [13/100] GlobalStep [156000] TrainLoss: 0.891516
+[2026-01-12 03:51:56,730] INFO: Epoch [6/100] GlobalStep [69000] MiniValLoss: 0.984076 (best: 0.969241)
+[2026-01-12 03:53:08,359] INFO: Epoch [13/100] GlobalStep [157000] TrainLoss: 0.882283
+[2026-01-12 03:53:39,183] INFO: Epoch [6/100] GlobalStep [70000] TrainLoss: 1.000056
+[2026-01-12 03:55:45,642] INFO: Epoch [6/100] GlobalStep [70000] MiniValLoss: 0.985093 (best: 0.969241)
+[2026-01-12 03:56:07,890] INFO: Epoch [13/100] completed | TrainLoss: 0.885936 | ValLoss: 0.889541 | BestValLoss: 0.870468
+[2026-01-12 03:56:58,860] INFO: Epoch [14/100] GlobalStep [158000] TrainLoss: 0.938813
+[2026-01-12 03:57:27,802] INFO: Epoch [6/100] GlobalStep [71000] TrainLoss: 0.989811
+[2026-01-12 03:58:40,485] INFO: Epoch [14/100] GlobalStep [159000] TrainLoss: 0.916212
+[2026-01-12 03:59:34,940] INFO: Epoch [6/100] GlobalStep [71000] MiniValLoss: 0.984773 (best: 0.969241)
+[2026-01-12 04:00:22,138] INFO: Epoch [14/100] GlobalStep [160000] TrainLoss: 0.862689
+[2026-01-12 04:01:17,303] INFO: Epoch [6/100] GlobalStep [72000] TrainLoss: 1.003705
+[2026-01-12 04:02:04,012] INFO: Epoch [14/100] GlobalStep [161000] TrainLoss: 0.905737
+[2026-01-12 04:03:24,527] INFO: Epoch [6/100] GlobalStep [72000] MiniValLoss: 0.985269 (best: 0.969241)
+[2026-01-12 04:03:45,688] INFO: Epoch [14/100] GlobalStep [162000] TrainLoss: 0.936217
+[2026-01-12 04:05:06,811] INFO: Epoch [6/100] GlobalStep [73000] TrainLoss: 0.967637
+[2026-01-12 04:05:27,684] INFO: Epoch [14/100] GlobalStep [163000] TrainLoss: 0.903139
+[2026-01-12 04:07:08,732] INFO: Epoch [14/100] GlobalStep [164000] TrainLoss: 0.864990
+[2026-01-12 04:07:14,367] INFO: Epoch [6/100] GlobalStep [73000] MiniValLoss: 0.984926 (best: 0.969241)
+[2026-01-12 04:08:50,954] INFO: Epoch [14/100] GlobalStep [165000] TrainLoss: 0.912851
+[2026-01-12 04:08:56,779] INFO: Epoch [6/100] GlobalStep [74000] TrainLoss: 0.992149
+[2026-01-12 04:10:32,359] INFO: Epoch [14/100] GlobalStep [166000] TrainLoss: 0.869368
+[2026-01-12 04:11:04,068] INFO: Epoch [6/100] GlobalStep [74000] MiniValLoss: 0.986204 (best: 0.969241)
+[2026-01-12 04:12:14,441] INFO: Epoch [14/100] GlobalStep [167000] TrainLoss: 0.865534
+[2026-01-12 04:12:46,630] INFO: Epoch [6/100] GlobalStep [75000] TrainLoss: 0.993393
+[2026-01-12 04:13:56,128] INFO: Epoch [14/100] GlobalStep [168000] TrainLoss: 0.953681
+[2026-01-12 04:14:54,500] INFO: Epoch [6/100] GlobalStep [75000] MiniValLoss: 0.985237 (best: 0.969241)
+[2026-01-12 04:16:36,078] INFO: Epoch [6/100] GlobalStep [76000] TrainLoss: 0.973987
+[2026-01-12 04:17:20,723] INFO: Epoch [14/100] completed | TrainLoss: 0.887054 | ValLoss: 0.877577 | BestValLoss: 0.870468
+[2026-01-12 04:17:45,571] INFO: Epoch [15/100] GlobalStep [169000] TrainLoss: 0.853318
+[2026-01-12 04:18:43,363] INFO: Epoch [6/100] GlobalStep [76000] MiniValLoss: 0.985553 (best: 0.969241)
+[2026-01-12 04:19:27,525] INFO: Epoch [15/100] GlobalStep [170000] TrainLoss: 0.860201
+[2026-01-12 04:20:25,727] INFO: Epoch [6/100] GlobalStep [77000] TrainLoss: 0.978619
+[2026-01-12 04:21:09,879] INFO: Epoch [15/100] GlobalStep [171000] TrainLoss: 0.869948
+[2026-01-12 04:22:33,133] INFO: Epoch [6/100] GlobalStep [77000] MiniValLoss: 0.983416 (best: 0.969241)
+[2026-01-12 04:22:51,287] INFO: Epoch [15/100] GlobalStep [172000] TrainLoss: 0.874728
+[2026-01-12 04:24:15,154] INFO: Epoch [6/100] GlobalStep [78000] TrainLoss: 0.979935
+[2026-01-12 04:24:33,792] INFO: Epoch [15/100] GlobalStep [173000] TrainLoss: 0.872368
+[2026-01-12 04:26:14,859] INFO: Epoch [15/100] GlobalStep [174000] TrainLoss: 0.896030
+[2026-01-12 04:26:22,441] INFO: Epoch [6/100] GlobalStep [78000] MiniValLoss: 0.983871 (best: 0.969241)
+[2026-01-12 04:27:57,215] INFO: Epoch [15/100] GlobalStep [175000] TrainLoss: 0.979319
+[2026-01-12 04:29:38,591] INFO: Epoch [15/100] GlobalStep [176000] TrainLoss: 0.838623
+[2026-01-12 04:29:47,480] INFO: Epoch [6/100] completed | TrainLoss: 0.985038 | ValLoss: 0.984825 | BestValLoss: 0.969241
+[2026-01-12 04:30:13,439] INFO: Epoch [7/100] GlobalStep [79000] TrainLoss: 0.984234
+[2026-01-12 04:31:20,241] INFO: Epoch [15/100] GlobalStep [177000] TrainLoss: 0.882356
+[2026-01-12 04:32:21,060] INFO: Epoch [7/100] GlobalStep [79000] MiniValLoss: 0.985201 (best: 0.969241)
+[2026-01-12 04:33:01,873] INFO: Epoch [15/100] GlobalStep [178000] TrainLoss: 0.858012
+[2026-01-12 04:34:03,324] INFO: Epoch [7/100] GlobalStep [80000] TrainLoss: 0.962836
+[2026-01-12 04:34:43,932] INFO: Epoch [15/100] GlobalStep [179000] TrainLoss: 0.880082
+[2026-01-12 04:36:11,331] INFO: Epoch [7/100] GlobalStep [80000] MiniValLoss: 0.984663 (best: 0.969241)
+[2026-01-12 04:36:24,839] INFO: Epoch [15/100] GlobalStep [180000] TrainLoss: 0.913361
+[2026-01-12 04:37:52,485] INFO: Epoch [7/100] GlobalStep [81000] TrainLoss: 0.989251
+[2026-01-12 04:38:34,904] INFO: Epoch [15/100] completed | TrainLoss: 0.885614 | ValLoss: 0.914741 | BestValLoss: 0.870468
+[2026-01-12 04:39:59,189] INFO: Epoch [7/100] GlobalStep [81000] MiniValLoss: 0.984736 (best: 0.969241)
+[2026-01-12 04:40:16,076] INFO: Epoch [16/100] GlobalStep [181000] TrainLoss: 0.955627
+[2026-01-12 04:41:41,189] INFO: Epoch [7/100] GlobalStep [82000] TrainLoss: 0.983359
+[2026-01-12 04:41:58,597] INFO: Epoch [16/100] GlobalStep [182000] TrainLoss: 0.872668
+[2026-01-12 04:43:40,181] INFO: Epoch [16/100] GlobalStep [183000] TrainLoss: 0.821855
+[2026-01-12 04:43:48,258] INFO: Epoch [7/100] GlobalStep [82000] MiniValLoss: 0.984548 (best: 0.969241)
+[2026-01-12 04:45:23,116] INFO: Epoch [16/100] GlobalStep [184000] TrainLoss: 0.909971
+[2026-01-12 04:45:30,220] INFO: Epoch [7/100] GlobalStep [83000] TrainLoss: 0.976222
+[2026-01-12 04:47:04,807] INFO: Epoch [16/100] GlobalStep [185000] TrainLoss: 0.924562
+[2026-01-12 04:47:37,464] INFO: Epoch [7/100] GlobalStep [83000] MiniValLoss: 0.984194 (best: 0.969241)
+[2026-01-12 04:48:47,270] INFO: Epoch [16/100] GlobalStep [186000] TrainLoss: 0.882177
+[2026-01-12 04:49:19,152] INFO: Epoch [7/100] GlobalStep [84000] TrainLoss: 0.960138
+[2026-01-12 04:50:29,104] INFO: Epoch [16/100] GlobalStep [187000] TrainLoss: 0.858705
+[2026-01-12 04:51:26,324] INFO: Epoch [7/100] GlobalStep [84000] MiniValLoss: 0.985230 (best: 0.969241)
+[2026-01-12 04:52:11,523] INFO: Epoch [16/100] GlobalStep [188000] TrainLoss: 0.899933
+[2026-01-12 04:53:08,155] INFO: Epoch [7/100] GlobalStep [85000] TrainLoss: 0.975735
+[2026-01-12 04:53:53,673] INFO: Epoch [16/100] GlobalStep [189000] TrainLoss: 0.880287
+[2026-01-12 04:55:15,980] INFO: Epoch [7/100] GlobalStep [85000] MiniValLoss: 0.985404 (best: 0.969241)
+[2026-01-12 04:55:35,131] INFO: Epoch [16/100] GlobalStep [190000] TrainLoss: 0.891270
+[2026-01-12 04:56:58,240] INFO: Epoch [7/100] GlobalStep [86000] TrainLoss: 0.989056
+[2026-01-12 04:57:17,857] INFO: Epoch [16/100] GlobalStep [191000] TrainLoss: 0.859513
+[2026-01-12 04:59:04,965] INFO: Epoch [7/100] GlobalStep [86000] MiniValLoss: 0.983911 (best: 0.969241)
+[2026-01-12 04:59:52,157] INFO: Epoch [16/100] completed | TrainLoss: 0.882561 | ValLoss: 0.962718 | BestValLoss: 0.870468
+[2026-01-12 05:00:46,014] INFO: Epoch [7/100] GlobalStep [87000] TrainLoss: 0.973758
+[2026-01-12 05:01:08,390] INFO: Epoch [17/100] GlobalStep [192000] TrainLoss: 0.907529
+[2026-01-12 05:02:49,445] INFO: Epoch [17/100] GlobalStep [193000] TrainLoss: 0.838392
+[2026-01-12 05:02:53,389] INFO: Epoch [7/100] GlobalStep [87000] MiniValLoss: 0.985254 (best: 0.969241)
+[2026-01-12 05:04:31,758] INFO: Epoch [17/100] GlobalStep [194000] TrainLoss: 0.880161
+[2026-01-12 05:04:34,912] INFO: Epoch [7/100] GlobalStep [88000] TrainLoss: 0.986973
+[2026-01-12 05:06:12,994] INFO: Epoch [17/100] GlobalStep [195000] TrainLoss: 0.827725
+[2026-01-12 05:06:43,163] INFO: Epoch [7/100] GlobalStep [88000] MiniValLoss: 0.985616 (best: 0.969241)
+[2026-01-12 05:07:54,835] INFO: Epoch [17/100] GlobalStep [196000] TrainLoss: 0.899231
+[2026-01-12 05:08:25,268] INFO: Epoch [7/100] GlobalStep [89000] TrainLoss: 0.993964
+[2026-01-12 05:09:36,278] INFO: Epoch [17/100] GlobalStep [197000] TrainLoss: 0.845549
+[2026-01-12 05:10:32,732] INFO: Epoch [7/100] GlobalStep [89000] MiniValLoss: 0.984284 (best: 0.969241)
+[2026-01-12 05:11:17,593] INFO: Epoch [17/100] GlobalStep [198000] TrainLoss: 0.868756
+[2026-01-12 05:12:14,707] INFO: Epoch [7/100] GlobalStep [90000] TrainLoss: 0.996654
+[2026-01-12 05:12:59,777] INFO: Epoch [17/100] GlobalStep [199000] TrainLoss: 0.882399
+[2026-01-12 05:14:21,686] INFO: Epoch [7/100] GlobalStep [90000] MiniValLoss: 0.984624 (best: 0.969241)
+[2026-01-12 05:14:40,433] INFO: Epoch [17/100] GlobalStep [200000] TrainLoss: 0.899952
+[2026-01-12 05:16:21,912] INFO: Epoch [17/100] GlobalStep [201000] TrainLoss: 0.867390
+[2026-01-12 05:16:29,990] INFO: Epoch [7/100] completed | TrainLoss: 0.985032 | ValLoss: 0.984929 | BestValLoss: 0.969241
+[2026-01-12 05:18:03,958] INFO: Epoch [17/100] GlobalStep [202000] TrainLoss: 0.920549
+[2026-01-12 05:18:13,328] INFO: Epoch [8/100] GlobalStep [91000] TrainLoss: 0.978638
+[2026-01-12 05:20:19,527] INFO: Epoch [8/100] GlobalStep [91000] MiniValLoss: 0.985654 (best: 0.969241)
+[2026-01-12 05:21:03,340] INFO: Epoch [17/100] completed | TrainLoss: 0.883917 | ValLoss: 0.868617 | BestValLoss: 0.870468
+[2026-01-12 05:21:03,341] INFO: Deleted previous best: best_m1s1k1_epoch11.pt
+[2026-01-12 05:21:03,348] INFO: New best at epoch 17: val_loss=0.868617 -> best_m1s1k1_epoch17.pt
+[2026-01-12 05:21:54,145] INFO: Epoch [18/100] GlobalStep [203000] TrainLoss: 0.875366
+[2026-01-12 05:22:01,642] INFO: Epoch [8/100] GlobalStep [92000] TrainLoss: 0.978625
+[2026-01-12 05:23:35,591] INFO: Epoch [18/100] GlobalStep [204000] TrainLoss: 0.877815
+[2026-01-12 05:24:09,247] INFO: Epoch [8/100] GlobalStep [92000] MiniValLoss: 0.985147 (best: 0.969241)
+[2026-01-12 05:25:17,785] INFO: Epoch [18/100] GlobalStep [205000] TrainLoss: 0.870410
+[2026-01-12 05:25:51,487] INFO: Epoch [8/100] GlobalStep [93000] TrainLoss: 0.987498
+[2026-01-12 05:26:59,907] INFO: Epoch [18/100] GlobalStep [206000] TrainLoss: 0.911637
+[2026-01-12 05:27:58,832] INFO: Epoch [8/100] GlobalStep [93000] MiniValLoss: 0.984641 (best: 0.969241)
+[2026-01-12 05:28:41,608] INFO: Epoch [18/100] GlobalStep [207000] TrainLoss: 0.839379
+[2026-01-12 05:29:41,114] INFO: Epoch [8/100] GlobalStep [94000] TrainLoss: 0.994640
+[2026-01-12 05:30:24,051] INFO: Epoch [18/100] GlobalStep [208000] TrainLoss: 0.881228
+[2026-01-12 05:31:48,812] INFO: Epoch [8/100] GlobalStep [94000] MiniValLoss: 0.984673 (best: 0.969241)
+[2026-01-12 05:32:04,890] INFO: Epoch [18/100] GlobalStep [209000] TrainLoss: 0.877775
+[2026-01-12 05:33:30,988] INFO: Epoch [8/100] GlobalStep [95000] TrainLoss: 0.978429
+[2026-01-12 05:33:47,536] INFO: Epoch [18/100] GlobalStep [210000] TrainLoss: 0.894590
+[2026-01-12 05:35:28,817] INFO: Epoch [18/100] GlobalStep [211000] TrainLoss: 0.856711
+[2026-01-12 05:35:38,451] INFO: Epoch [8/100] GlobalStep [95000] MiniValLoss: 0.983395 (best: 0.969241)
+[2026-01-12 05:37:11,395] INFO: Epoch [18/100] GlobalStep [212000] TrainLoss: 0.877365
+[2026-01-12 05:37:20,911] INFO: Epoch [8/100] GlobalStep [96000] TrainLoss: 0.965391
+[2026-01-12 05:38:52,882] INFO: Epoch [18/100] GlobalStep [213000] TrainLoss: 0.884434
+[2026-01-12 05:39:28,187] INFO: Epoch [8/100] GlobalStep [96000] MiniValLoss: 0.984795 (best: 0.969241)
+[2026-01-12 05:41:10,043] INFO: Epoch [8/100] GlobalStep [97000] TrainLoss: 0.987836
+[2026-01-12 05:42:18,558] INFO: Epoch [18/100] completed | TrainLoss: 0.881076 | ValLoss: 0.923481 | BestValLoss: 0.868617
+[2026-01-12 05:42:43,016] INFO: Epoch [19/100] GlobalStep [214000] TrainLoss: 0.902007
+[2026-01-12 05:43:16,657] INFO: Epoch [8/100] GlobalStep [97000] MiniValLoss: 0.985211 (best: 0.969241)
+[2026-01-12 05:44:25,170] INFO: Epoch [19/100] GlobalStep [215000] TrainLoss: 0.860122
+[2026-01-12 05:44:58,685] INFO: Epoch [8/100] GlobalStep [98000] TrainLoss: 0.992186
+[2026-01-12 05:46:06,721] INFO: Epoch [19/100] GlobalStep [216000] TrainLoss: 0.905321
+[2026-01-12 05:47:06,899] INFO: Epoch [8/100] GlobalStep [98000] MiniValLoss: 0.984141 (best: 0.969241)
+[2026-01-12 05:47:48,166] INFO: Epoch [19/100] GlobalStep [217000] TrainLoss: 0.935588
+[2026-01-12 05:48:49,386] INFO: Epoch [8/100] GlobalStep [99000] TrainLoss: 0.984514
+[2026-01-12 05:49:30,190] INFO: Epoch [19/100] GlobalStep [218000] TrainLoss: 0.859655
+[2026-01-12 05:50:56,950] INFO: Epoch [8/100] GlobalStep [99000] MiniValLoss: 0.984174 (best: 0.969241)
+[2026-01-12 05:51:11,304] INFO: Epoch [19/100] GlobalStep [219000] TrainLoss: 0.882446
+[2026-01-12 05:52:39,034] INFO: Epoch [8/100] GlobalStep [100000] TrainLoss: 0.965577
+[2026-01-12 05:52:54,032] INFO: Epoch [19/100] GlobalStep [220000] TrainLoss: 0.875945
+[2026-01-12 05:54:34,634] INFO: Epoch [19/100] GlobalStep [221000] TrainLoss: 0.876477
+[2026-01-12 05:54:46,855] INFO: Epoch [8/100] GlobalStep [100000] MiniValLoss: 0.984950 (best: 0.969241)
+[2026-01-12 05:56:17,020] INFO: Epoch [19/100] GlobalStep [222000] TrainLoss: 0.951201
+[2026-01-12 05:56:29,269] INFO: Epoch [8/100] GlobalStep [101000] TrainLoss: 0.992588
+[2026-01-12 05:57:57,917] INFO: Epoch [19/100] GlobalStep [223000] TrainLoss: 0.846325
+[2026-01-12 05:58:36,738] INFO: Epoch [8/100] GlobalStep [101000] MiniValLoss: 0.985739 (best: 0.969241)
+[2026-01-12 05:59:39,203] INFO: Epoch [19/100] GlobalStep [224000] TrainLoss: 0.827803
+[2026-01-12 06:01:11,364] INFO: Epoch [8/100] completed | TrainLoss: 0.985057 | ValLoss: 0.984924 | BestValLoss: 0.969241
+[2026-01-12 06:01:20,656] INFO: Epoch [19/100] GlobalStep [225000] TrainLoss: 0.886572
+[2026-01-12 06:02:28,120] INFO: Epoch [9/100] GlobalStep [102000] TrainLoss: 0.980016
+[2026-01-12 06:03:30,479] INFO: Epoch [19/100] completed | TrainLoss: 0.881903 | ValLoss: 0.869322 | BestValLoss: 0.868617
+[2026-01-12 06:04:34,707] INFO: Epoch [9/100] GlobalStep [102000] MiniValLoss: 0.984229 (best: 0.969241)
+[2026-01-12 06:05:11,027] INFO: Epoch [20/100] GlobalStep [226000] TrainLoss: 0.887173
+[2026-01-12 06:06:17,457] INFO: Epoch [9/100] GlobalStep [103000] TrainLoss: 0.983823
+[2026-01-12 06:06:53,002] INFO: Epoch [20/100] GlobalStep [227000] TrainLoss: 0.904506
+[2026-01-12 06:08:24,576] INFO: Epoch [9/100] GlobalStep [103000] MiniValLoss: 0.985512 (best: 0.969241)
+[2026-01-12 06:08:34,441] INFO: Epoch [20/100] GlobalStep [228000] TrainLoss: 0.865193
+[2026-01-12 06:10:06,961] INFO: Epoch [9/100] GlobalStep [104000] TrainLoss: 0.998815
+[2026-01-12 06:10:17,701] INFO: Epoch [20/100] GlobalStep [229000] TrainLoss: 0.867368
+[2026-01-12 06:11:58,838] INFO: Epoch [20/100] GlobalStep [230000] TrainLoss: 0.873020
+[2026-01-12 06:12:14,304] INFO: Epoch [9/100] GlobalStep [104000] MiniValLoss: 0.984336 (best: 0.969241)
+[2026-01-12 06:13:41,544] INFO: Epoch [20/100] GlobalStep [231000] TrainLoss: 0.859901
+[2026-01-12 06:13:56,844] INFO: Epoch [9/100] GlobalStep [105000] TrainLoss: 0.982806
+[2026-01-12 06:15:23,116] INFO: Epoch [20/100] GlobalStep [232000] TrainLoss: 0.878900
+[2026-01-12 06:16:04,610] INFO: Epoch [9/100] GlobalStep [105000] MiniValLoss: 0.985097 (best: 0.969241)
+[2026-01-12 06:17:05,067] INFO: Epoch [20/100] GlobalStep [233000] TrainLoss: 0.864635
+[2026-01-12 06:17:47,168] INFO: Epoch [9/100] GlobalStep [106000] TrainLoss: 1.005231
+[2026-01-12 06:18:46,965] INFO: Epoch [20/100] GlobalStep [234000] TrainLoss: 1.055066
+[2026-01-12 06:19:54,295] INFO: Epoch [9/100] GlobalStep [106000] MiniValLoss: 0.984520 (best: 0.969241)
+[2026-01-12 06:20:28,875] INFO: Epoch [20/100] GlobalStep [235000] TrainLoss: 0.978531
+[2026-01-12 06:21:36,864] INFO: Epoch [9/100] GlobalStep [107000] TrainLoss: 0.989352
+[2026-01-12 06:22:11,349] INFO: Epoch [20/100] GlobalStep [236000] TrainLoss: 0.937495
+[2026-01-12 06:23:43,141] INFO: Epoch [9/100] GlobalStep [107000] MiniValLoss: 0.984446 (best: 0.969241)
+[2026-01-12 06:24:45,960] INFO: Epoch [20/100] completed | TrainLoss: 0.887276 | ValLoss: 0.885805 | BestValLoss: 0.868617
+[2026-01-12 06:25:24,994] INFO: Epoch [9/100] GlobalStep [108000] TrainLoss: 0.962501
+[2026-01-12 06:26:01,662] INFO: Epoch [21/100] GlobalStep [237000] TrainLoss: 0.865202
+[2026-01-12 06:27:32,304] INFO: Epoch [9/100] GlobalStep [108000] MiniValLoss: 0.984567 (best: 0.969241)
+[2026-01-12 06:27:42,980] INFO: Epoch [21/100] GlobalStep [238000] TrainLoss: 0.852588
+[2026-01-12 06:29:14,712] INFO: Epoch [9/100] GlobalStep [109000] TrainLoss: 0.977975
+[2026-01-12 06:29:26,083] INFO: Epoch [21/100] GlobalStep [239000] TrainLoss: 0.858024
+[2026-01-12 06:31:07,335] INFO: Epoch [21/100] GlobalStep [240000] TrainLoss: 0.883215
+[2026-01-12 06:31:22,479] INFO: Epoch [9/100] GlobalStep [109000] MiniValLoss: 0.984974 (best: 0.969241)
+[2026-01-12 06:32:49,844] INFO: Epoch [21/100] GlobalStep [241000] TrainLoss: 0.872041
+[2026-01-12 06:33:04,786] INFO: Epoch [9/100] GlobalStep [110000] TrainLoss: 0.981610
+[2026-01-12 06:34:31,371] INFO: Epoch [21/100] GlobalStep [242000] TrainLoss: 0.915383
+[2026-01-12 06:35:12,546] INFO: Epoch [9/100] GlobalStep [110000] MiniValLoss: 0.984782 (best: 0.969241)
+[2026-01-12 06:36:13,335] INFO: Epoch [21/100] GlobalStep [243000] TrainLoss: 0.868812
+[2026-01-12 06:36:54,846] INFO: Epoch [9/100] GlobalStep [111000] TrainLoss: 0.980383
+[2026-01-12 06:37:55,235] INFO: Epoch [21/100] GlobalStep [244000] TrainLoss: 0.858452
+[2026-01-12 06:39:02,356] INFO: Epoch [9/100] GlobalStep [111000] MiniValLoss: 0.985297 (best: 0.969241)
+[2026-01-12 06:39:37,495] INFO: Epoch [21/100] GlobalStep [245000] TrainLoss: 0.901743
+[2026-01-12 06:40:44,790] INFO: Epoch [9/100] GlobalStep [112000] TrainLoss: 0.996309
+[2026-01-12 06:41:19,704] INFO: Epoch [21/100] GlobalStep [246000] TrainLoss: 0.904842
+[2026-01-12 06:42:51,758] INFO: Epoch [9/100] GlobalStep [112000] MiniValLoss: 0.984928 (best: 0.969241)
+[2026-01-12 06:43:00,701] INFO: Epoch [21/100] GlobalStep [247000] TrainLoss: 0.875825
+[2026-01-12 06:45:50,947] INFO: Epoch [9/100] completed | TrainLoss: 0.985024 | ValLoss: 0.984881 | BestValLoss: 0.969241
+[2026-01-12 06:46:01,112] INFO: Epoch [21/100] completed | TrainLoss: 0.883882 | ValLoss: 0.867586 | BestValLoss: 0.868617
+[2026-01-12 06:46:01,113] INFO: Deleted previous best: best_m1s1k1_epoch17.pt
+[2026-01-12 06:46:01,121] INFO: New best at epoch 21: val_loss=0.867586 -> best_m1s1k1_epoch21.pt
+[2026-01-12 06:46:42,058] INFO: Epoch [10/100] GlobalStep [113000] TrainLoss: 0.971523
+[2026-01-12 06:46:51,209] INFO: Epoch [22/100] GlobalStep [248000] TrainLoss: 0.890558
+[2026-01-12 06:48:32,235] INFO: Epoch [22/100] GlobalStep [249000] TrainLoss: 0.871659
+[2026-01-12 06:48:49,630] INFO: Epoch [10/100] GlobalStep [113000] MiniValLoss: 0.984553 (best: 0.969241)
+[2026-01-12 06:50:14,724] INFO: Epoch [22/100] GlobalStep [250000] TrainLoss: 0.901128
+[2026-01-12 06:50:31,664] INFO: Epoch [10/100] GlobalStep [114000] TrainLoss: 1.005887
+[2026-01-12 06:51:56,251] INFO: Epoch [22/100] GlobalStep [251000] TrainLoss: 0.891853
+[2026-01-12 06:52:38,195] INFO: Epoch [10/100] GlobalStep [114000] MiniValLoss: 0.983643 (best: 0.969241)
+[2026-01-12 06:53:38,188] INFO: Epoch [22/100] GlobalStep [252000] TrainLoss: 0.871372
+[2026-01-12 06:54:20,222] INFO: Epoch [10/100] GlobalStep [115000] TrainLoss: 0.981464
+[2026-01-12 06:55:19,894] INFO: Epoch [22/100] GlobalStep [253000] TrainLoss: 0.927003
+[2026-01-12 06:56:27,616] INFO: Epoch [10/100] GlobalStep [115000] MiniValLoss: 0.984379 (best: 0.969241)
+[2026-01-12 06:57:01,368] INFO: Epoch [22/100] GlobalStep [254000] TrainLoss: 0.841368
+[2026-01-12 06:58:09,707] INFO: Epoch [10/100] GlobalStep [116000] TrainLoss: 1.008501
+[2026-01-12 06:58:43,369] INFO: Epoch [22/100] GlobalStep [255000] TrainLoss: 0.870635
+[2026-01-12 07:00:17,077] INFO: Epoch [10/100] GlobalStep [116000] MiniValLoss: 0.985978 (best: 0.969241)
+[2026-01-12 07:00:24,749] INFO: Epoch [22/100] GlobalStep [256000] TrainLoss: 0.873798
+[2026-01-12 07:01:58,972] INFO: Epoch [10/100] GlobalStep [117000] TrainLoss: 0.980124
+[2026-01-12 07:02:07,292] INFO: Epoch [22/100] GlobalStep [257000] TrainLoss: 0.886648
+[2026-01-12 07:03:48,430] INFO: Epoch [22/100] GlobalStep [258000] TrainLoss: 0.909263
+[2026-01-12 07:04:05,907] INFO: Epoch [10/100] GlobalStep [117000] MiniValLoss: 0.984537 (best: 0.969241)
+[2026-01-12 07:05:47,328] INFO: Epoch [10/100] GlobalStep [118000] TrainLoss: 0.980664
+[2026-01-12 07:07:14,371] INFO: Epoch [22/100] completed | TrainLoss: 0.880347 | ValLoss: 0.867091 | BestValLoss: 0.867586
+[2026-01-12 07:07:14,372] INFO: Deleted previous best: best_m1s1k1_epoch21.pt
+[2026-01-12 07:07:14,378] INFO: New best at epoch 22: val_loss=0.867091 -> best_m1s1k1_epoch22.pt
+[2026-01-12 07:07:38,166] INFO: Epoch [23/100] GlobalStep [259000] TrainLoss: 0.875309
+[2026-01-12 07:07:54,592] INFO: Epoch [10/100] GlobalStep [118000] MiniValLoss: 0.983697 (best: 0.969241)
+[2026-01-12 07:09:20,858] INFO: Epoch [23/100] GlobalStep [260000] TrainLoss: 0.973014
+[2026-01-12 07:09:36,680] INFO: Epoch [10/100] GlobalStep [119000] TrainLoss: 0.972212
+[2026-01-12 07:11:02,278] INFO: Epoch [23/100] GlobalStep [261000] TrainLoss: 0.865965
+[2026-01-12 07:11:44,204] INFO: Epoch [10/100] GlobalStep [119000] MiniValLoss: 0.985512 (best: 0.969241)
+[2026-01-12 07:12:44,425] INFO: Epoch [23/100] GlobalStep [262000] TrainLoss: 0.866854
+[2026-01-12 07:13:26,310] INFO: Epoch [10/100] GlobalStep [120000] TrainLoss: 0.967447
+[2026-01-12 07:14:26,178] INFO: Epoch [23/100] GlobalStep [263000] TrainLoss: 0.873909
+[2026-01-12 07:15:33,697] INFO: Epoch [10/100] GlobalStep [120000] MiniValLoss: 0.985296 (best: 0.969241)
+[2026-01-12 07:16:07,221] INFO: Epoch [23/100] GlobalStep [264000] TrainLoss: 0.834790
+[2026-01-12 07:17:16,112] INFO: Epoch [10/100] GlobalStep [121000] TrainLoss: 0.999377
+[2026-01-12 07:17:49,469] INFO: Epoch [23/100] GlobalStep [265000] TrainLoss: 0.904422
+[2026-01-12 07:19:23,471] INFO: Epoch [10/100] GlobalStep [121000] MiniValLoss: 0.985840 (best: 0.969241)
+[2026-01-12 07:19:30,678] INFO: Epoch [23/100] GlobalStep [266000] TrainLoss: 0.876423
+[2026-01-12 07:21:05,534] INFO: Epoch [10/100] GlobalStep [122000] TrainLoss: 0.972364
+[2026-01-12 07:21:13,355] INFO: Epoch [23/100] GlobalStep [267000] TrainLoss: 0.930699
+[2026-01-12 07:22:54,782] INFO: Epoch [23/100] GlobalStep [268000] TrainLoss: 0.875681
+[2026-01-12 07:23:12,629] INFO: Epoch [10/100] GlobalStep [122000] MiniValLoss: 0.984537 (best: 0.969241)
+[2026-01-12 07:24:37,593] INFO: Epoch [23/100] GlobalStep [269000] TrainLoss: 0.877563
+[2026-01-12 07:24:54,861] INFO: Epoch [10/100] GlobalStep [123000] TrainLoss: 0.978182
+[2026-01-12 07:26:19,146] INFO: Epoch [23/100] GlobalStep [270000] TrainLoss: 0.893303
+[2026-01-12 07:27:00,567] INFO: Epoch [10/100] GlobalStep [123000] MiniValLoss: 0.984665 (best: 0.969241)
+[2026-01-12 07:28:28,904] INFO: Epoch [23/100] completed | TrainLoss: 0.881316 | ValLoss: 0.873999 | BestValLoss: 0.867091
+[2026-01-12 07:30:09,793] INFO: Epoch [24/100] GlobalStep [271000] TrainLoss: 0.863999
+[2026-01-12 07:30:25,478] INFO: Epoch [10/100] completed | TrainLoss: 0.985063 | ValLoss: 0.984801 | BestValLoss: 0.969241
+[2026-01-12 07:30:51,193] INFO: Epoch [11/100] GlobalStep [124000] TrainLoss: 1.004407
+[2026-01-12 07:31:51,314] INFO: Epoch [24/100] GlobalStep [272000] TrainLoss: 0.874660
+[2026-01-12 07:32:58,159] INFO: Epoch [11/100] GlobalStep [124000] MiniValLoss: 0.983856 (best: 0.969241)
+[2026-01-12 07:33:32,884] INFO: Epoch [24/100] GlobalStep [273000] TrainLoss: 0.833241
+[2026-01-12 07:34:40,524] INFO: Epoch [11/100] GlobalStep [125000] TrainLoss: 0.979138
+[2026-01-12 07:35:15,656] INFO: Epoch [24/100] GlobalStep [274000] TrainLoss: 0.882788
+[2026-01-12 07:36:48,190] INFO: Epoch [11/100] GlobalStep [125000] MiniValLoss: 0.984775 (best: 0.969241)
+[2026-01-12 07:36:56,880] INFO: Epoch [24/100] GlobalStep [275000] TrainLoss: 0.899785
+[2026-01-12 07:38:30,342] INFO: Epoch [11/100] GlobalStep [126000] TrainLoss: 0.978734
+[2026-01-12 07:38:39,672] INFO: Epoch [24/100] GlobalStep [276000] TrainLoss: 0.862274
+[2026-01-12 07:40:20,961] INFO: Epoch [24/100] GlobalStep [277000] TrainLoss: 0.850466
+[2026-01-12 07:40:37,604] INFO: Epoch [11/100] GlobalStep [126000] MiniValLoss: 0.983958 (best: 0.969241)
+[2026-01-12 07:42:03,017] INFO: Epoch [24/100] GlobalStep [278000] TrainLoss: 0.870378
+[2026-01-12 07:42:19,822] INFO: Epoch [11/100] GlobalStep [127000] TrainLoss: 0.972353
+[2026-01-12 07:43:44,470] INFO: Epoch [24/100] GlobalStep [279000] TrainLoss: 0.849266
+[2026-01-12 07:44:27,326] INFO: Epoch [11/100] GlobalStep [127000] MiniValLoss: 0.985844 (best: 0.969241)
+[2026-01-12 07:45:26,048] INFO: Epoch [24/100] GlobalStep [280000] TrainLoss: 0.893644
+[2026-01-12 07:46:09,681] INFO: Epoch [11/100] GlobalStep [128000] TrainLoss: 0.977728
+[2026-01-12 07:47:08,311] INFO: Epoch [24/100] GlobalStep [281000] TrainLoss: 0.880248
+[2026-01-12 07:48:16,466] INFO: Epoch [11/100] GlobalStep [128000] MiniValLoss: 0.985564 (best: 0.969241)
+[2026-01-12 07:49:44,264] INFO: Epoch [24/100] completed | TrainLoss: 0.879865 | ValLoss: 0.875041 | BestValLoss: 0.867091
+[2026-01-12 07:49:58,165] INFO: Epoch [11/100] GlobalStep [129000] TrainLoss: 0.993042
+[2026-01-12 07:50:59,768] INFO: Epoch [25/100] GlobalStep [282000] TrainLoss: 0.874435
+[2026-01-12 07:52:05,124] INFO: Epoch [11/100] GlobalStep [129000] MiniValLoss: 0.985484 (best: 0.969241)
+[2026-01-12 07:52:41,766] INFO: Epoch [25/100] GlobalStep [283000] TrainLoss: 0.854090
+[2026-01-12 07:53:46,403] INFO: Epoch [11/100] GlobalStep [130000] TrainLoss: 0.973098
+[2026-01-12 07:54:24,471] INFO: Epoch [25/100] GlobalStep [284000] TrainLoss: 0.848386
+[2026-01-12 07:55:53,539] INFO: Epoch [11/100] GlobalStep [130000] MiniValLoss: 0.985131 (best: 0.969241)
+[2026-01-12 07:56:06,267] INFO: Epoch [25/100] GlobalStep [285000] TrainLoss: 0.858208
+[2026-01-12 07:57:35,699] INFO: Epoch [11/100] GlobalStep [131000] TrainLoss: 0.982491
+[2026-01-12 07:57:48,675] INFO: Epoch [25/100] GlobalStep [286000] TrainLoss: 0.859128
+[2026-01-12 07:59:29,325] INFO: Epoch [25/100] GlobalStep [287000] TrainLoss: 0.898913
+[2026-01-12 07:59:43,429] INFO: Epoch [11/100] GlobalStep [131000] MiniValLoss: 0.984680 (best: 0.969241)
+[2026-01-12 08:01:11,591] INFO: Epoch [25/100] GlobalStep [288000] TrainLoss: 0.871313
+[2026-01-12 08:01:25,560] INFO: Epoch [11/100] GlobalStep [132000] TrainLoss: 0.951507
+[2026-01-12 08:02:52,737] INFO: Epoch [25/100] GlobalStep [289000] TrainLoss: 0.862871
+[2026-01-12 08:03:33,023] INFO: Epoch [11/100] GlobalStep [132000] MiniValLoss: 0.985792 (best: 0.969241)
+[2026-01-12 08:04:34,680] INFO: Epoch [25/100] GlobalStep [290000] TrainLoss: 0.870569
+[2026-01-12 08:05:15,363] INFO: Epoch [11/100] GlobalStep [133000] TrainLoss: 0.980487
+[2026-01-12 08:06:16,279] INFO: Epoch [25/100] GlobalStep [291000] TrainLoss: 0.902570
+[2026-01-12 08:07:22,639] INFO: Epoch [11/100] GlobalStep [133000] MiniValLoss: 0.985579 (best: 0.969241)
+[2026-01-12 08:07:57,717] INFO: Epoch [25/100] GlobalStep [292000] TrainLoss: 0.841510
+[2026-01-12 08:09:04,144] INFO: Epoch [11/100] GlobalStep [134000] TrainLoss: 0.980336
+[2026-01-12 08:10:58,143] INFO: Epoch [25/100] completed | TrainLoss: 0.877035 | ValLoss: 0.872208 | BestValLoss: 0.867091
+[2026-01-12 08:11:10,820] INFO: Epoch [11/100] GlobalStep [134000] MiniValLoss: 0.984808 (best: 0.969241)
+[2026-01-12 08:11:47,712] INFO: Epoch [26/100] GlobalStep [293000] TrainLoss: 0.874740
+[2026-01-12 08:12:53,356] INFO: Epoch [11/100] GlobalStep [135000] TrainLoss: 0.975326
+[2026-01-12 08:13:30,247] INFO: Epoch [26/100] GlobalStep [294000] TrainLoss: 0.920859
+[2026-01-12 08:15:00,735] INFO: Epoch [11/100] GlobalStep [135000] MiniValLoss: 0.984704 (best: 0.969241)
+[2026-01-12 08:15:10,606] INFO: Epoch [26/100] GlobalStep [295000] TrainLoss: 0.872895
+[2026-01-12 08:16:52,189] INFO: Epoch [26/100] GlobalStep [296000] TrainLoss: 0.885743
+[2026-01-12 08:17:09,356] INFO: Epoch [11/100] completed | TrainLoss: 0.985060 | ValLoss: 0.984785 | BestValLoss: 0.969241
+[2026-01-12 08:18:34,637] INFO: Epoch [26/100] GlobalStep [297000] TrainLoss: 0.841352
+[2026-01-12 08:18:52,684] INFO: Epoch [12/100] GlobalStep [136000] TrainLoss: 0.986959
+[2026-01-12 08:20:16,168] INFO: Epoch [26/100] GlobalStep [298000] TrainLoss: 0.883994
+[2026-01-12 08:21:00,521] INFO: Epoch [12/100] GlobalStep [136000] MiniValLoss: 0.985049 (best: 0.969241)
+[2026-01-12 08:21:58,228] INFO: Epoch [26/100] GlobalStep [299000] TrainLoss: 0.969595
+[2026-01-12 08:22:43,277] INFO: Epoch [12/100] GlobalStep [137000] TrainLoss: 0.994820
+[2026-01-12 08:23:39,564] INFO: Epoch [26/100] GlobalStep [300000] TrainLoss: 0.899301
+[2026-01-12 08:24:50,927] INFO: Epoch [12/100] GlobalStep [137000] MiniValLoss: 0.983884 (best: 0.969241)
+[2026-01-12 08:25:20,900] INFO: Epoch [26/100] GlobalStep [301000] TrainLoss: 0.810796
+[2026-01-12 08:26:33,715] INFO: Epoch [12/100] GlobalStep [138000] TrainLoss: 0.978180
+[2026-01-12 08:27:02,790] INFO: Epoch [26/100] GlobalStep [302000] TrainLoss: 0.915228
+[2026-01-12 08:28:41,516] INFO: Epoch [12/100] GlobalStep [138000] MiniValLoss: 0.985379 (best: 0.969241)
+[2026-01-12 08:28:43,853] INFO: Epoch [26/100] GlobalStep [303000] TrainLoss: 0.864535
+[2026-01-12 08:30:23,905] INFO: Epoch [12/100] GlobalStep [139000] TrainLoss: 0.975658
+[2026-01-12 08:32:09,978] INFO: Epoch [26/100] completed | TrainLoss: 0.878428 | ValLoss: 0.871956 | BestValLoss: 0.867091
+[2026-01-12 08:32:30,479] INFO: Epoch [12/100] GlobalStep [139000] MiniValLoss: 0.983687 (best: 0.969241)
+[2026-01-12 08:32:33,636] INFO: Epoch [27/100] GlobalStep [304000] TrainLoss: 0.875477
+[2026-01-12 08:34:13,100] INFO: Epoch [12/100] GlobalStep [140000] TrainLoss: 0.982200
+[2026-01-12 08:34:16,000] INFO: Epoch [27/100] GlobalStep [305000] TrainLoss: 0.854899
+[2026-01-12 08:35:57,131] INFO: Epoch [27/100] GlobalStep [306000] TrainLoss: 0.903202
+[2026-01-12 08:36:19,914] INFO: Epoch [12/100] GlobalStep [140000] MiniValLoss: 0.984064 (best: 0.969241)
+[2026-01-12 08:37:39,741] INFO: Epoch [27/100] GlobalStep [307000] TrainLoss: 0.879486
+[2026-01-12 08:38:02,195] INFO: Epoch [12/100] GlobalStep [141000] TrainLoss: 1.001614
+[2026-01-12 08:39:20,984] INFO: Epoch [27/100] GlobalStep [308000] TrainLoss: 0.872760
+[2026-01-12 08:40:09,829] INFO: Epoch [12/100] GlobalStep [141000] MiniValLoss: 0.983728 (best: 0.969241)
+[2026-01-12 08:41:03,291] INFO: Epoch [27/100] GlobalStep [309000] TrainLoss: 0.870724
+[2026-01-12 08:41:51,960] INFO: Epoch [12/100] GlobalStep [142000] TrainLoss: 0.975024
+[2026-01-12 08:42:45,058] INFO: Epoch [27/100] GlobalStep [310000] TrainLoss: 0.868111
+[2026-01-12 08:43:59,728] INFO: Epoch [12/100] GlobalStep [142000] MiniValLoss: 0.985549 (best: 0.969241)
+[2026-01-12 08:44:26,050] INFO: Epoch [27/100] GlobalStep [311000] TrainLoss: 0.864574
+[2026-01-12 08:45:42,473] INFO: Epoch [12/100] GlobalStep [143000] TrainLoss: 0.988162
+[2026-01-12 08:46:08,284] INFO: Epoch [27/100] GlobalStep [312000] TrainLoss: 0.849867
+[2026-01-12 08:47:49,207] INFO: Epoch [27/100] GlobalStep [313000] TrainLoss: 0.931802
+[2026-01-12 08:47:49,652] INFO: Epoch [12/100] GlobalStep [143000] MiniValLoss: 0.985070 (best: 0.969241)
+[2026-01-12 08:49:31,839] INFO: Epoch [27/100] GlobalStep [314000] TrainLoss: 0.925878
+[2026-01-12 08:49:32,187] INFO: Epoch [12/100] GlobalStep [144000] TrainLoss: 0.998522
+[2026-01-12 08:51:12,837] INFO: Epoch [27/100] GlobalStep [315000] TrainLoss: 0.903713
+[2026-01-12 08:51:38,629] INFO: Epoch [12/100] GlobalStep [144000] MiniValLoss: 0.983842 (best: 0.969241)
+[2026-01-12 08:53:20,149] INFO: Epoch [12/100] GlobalStep [145000] TrainLoss: 1.000132
+[2026-01-12 08:53:23,879] INFO: Epoch [27/100] completed | TrainLoss: 0.877952 | ValLoss: 0.883421 | BestValLoss: 0.867091
+[2026-01-12 08:55:03,758] INFO: Epoch [28/100] GlobalStep [316000] TrainLoss: 0.854647
+[2026-01-12 08:55:27,384] INFO: Epoch [12/100] GlobalStep [145000] MiniValLoss: 0.985900 (best: 0.969241)
+[2026-01-12 08:56:45,846] INFO: Epoch [28/100] GlobalStep [317000] TrainLoss: 0.859913
+[2026-01-12 08:57:10,529] INFO: Epoch [12/100] GlobalStep [146000] TrainLoss: 0.990474
+[2026-01-12 08:58:27,553] INFO: Epoch [28/100] GlobalStep [318000] TrainLoss: 0.882908
+[2026-01-12 08:59:17,866] INFO: Epoch [12/100] GlobalStep [146000] MiniValLoss: 0.985846 (best: 0.969241)
+[2026-01-12 09:00:09,239] INFO: Epoch [28/100] GlobalStep [319000] TrainLoss: 0.912319
+[2026-01-12 09:01:51,468] INFO: Epoch [28/100] GlobalStep [320000] TrainLoss: 0.852073
+[2026-01-12 09:01:52,364] INFO: Epoch [12/100] completed | TrainLoss: 0.985062 | ValLoss: 0.984880 | BestValLoss: 0.969241
+[2026-01-12 09:03:09,296] INFO: Epoch [13/100] GlobalStep [147000] TrainLoss: 0.978399
+[2026-01-12 09:03:34,256] INFO: Epoch [28/100] GlobalStep [321000] TrainLoss: 0.828018
+[2026-01-12 09:05:15,511] INFO: Epoch [28/100] GlobalStep [322000] TrainLoss: 0.897901
+[2026-01-12 09:05:17,207] INFO: Epoch [13/100] GlobalStep [147000] MiniValLoss: 0.984258 (best: 0.969241)
+[2026-01-12 09:06:58,593] INFO: Epoch [28/100] GlobalStep [323000] TrainLoss: 0.906189
+[2026-01-12 09:06:59,954] INFO: Epoch [13/100] GlobalStep [148000] TrainLoss: 0.986248
+[2026-01-12 09:08:40,034] INFO: Epoch [28/100] GlobalStep [324000] TrainLoss: 0.897923
+[2026-01-12 09:09:07,826] INFO: Epoch [13/100] GlobalStep [148000] MiniValLoss: 0.984323 (best: 0.969241)
+[2026-01-12 09:10:22,518] INFO: Epoch [28/100] GlobalStep [325000] TrainLoss: 0.838303
+[2026-01-12 09:10:50,184] INFO: Epoch [13/100] GlobalStep [149000] TrainLoss: 0.998173
+[2026-01-12 09:12:04,627] INFO: Epoch [28/100] GlobalStep [326000] TrainLoss: 0.857409
+[2026-01-12 09:12:57,058] INFO: Epoch [13/100] GlobalStep [149000] MiniValLoss: 0.985002 (best: 0.969241)
+[2026-01-12 09:14:39,179] INFO: Epoch [13/100] GlobalStep [150000] TrainLoss: 0.963363
+[2026-01-12 09:14:40,542] INFO: Epoch [28/100] completed | TrainLoss: 0.876948 | ValLoss: 0.866154 | BestValLoss: 0.867091
+[2026-01-12 09:14:40,543] INFO: Deleted previous best: best_m1s1k1_epoch22.pt
+[2026-01-12 09:14:40,551] INFO: New best at epoch 28: val_loss=0.866154 -> best_m1s1k1_epoch28.pt
+[2026-01-12 09:15:54,939] INFO: Epoch [29/100] GlobalStep [327000] TrainLoss: 0.889043
+[2026-01-12 09:16:47,012] INFO: Epoch [13/100] GlobalStep [150000] MiniValLoss: 0.984959 (best: 0.969241)
+[2026-01-12 09:17:37,112] INFO: Epoch [29/100] GlobalStep [328000] TrainLoss: 0.910359
+[2026-01-12 09:18:29,249] INFO: Epoch [13/100] GlobalStep [151000] TrainLoss: 0.988592
+[2026-01-12 09:19:18,998] INFO: Epoch [29/100] GlobalStep [329000] TrainLoss: 0.892900
+[2026-01-12 09:20:36,529] INFO: Epoch [13/100] GlobalStep [151000] MiniValLoss: 0.984157 (best: 0.969241)
+[2026-01-12 09:21:00,309] INFO: Epoch [29/100] GlobalStep [330000] TrainLoss: 0.869817
+[2026-01-12 09:22:18,623] INFO: Epoch [13/100] GlobalStep [152000] TrainLoss: 0.960916
+[2026-01-12 09:22:43,126] INFO: Epoch [29/100] GlobalStep [331000] TrainLoss: 0.870030
+[2026-01-12 09:24:23,820] INFO: Epoch [29/100] GlobalStep [332000] TrainLoss: 0.893778
+[2026-01-12 09:24:25,612] INFO: Epoch [13/100] GlobalStep [152000] MiniValLoss: 0.983211 (best: 0.969241)
+[2026-01-12 09:26:06,565] INFO: Epoch [29/100] GlobalStep [333000] TrainLoss: 0.922391
+[2026-01-12 09:26:07,904] INFO: Epoch [13/100] GlobalStep [153000] TrainLoss: 1.011464
+[2026-01-12 09:27:47,302] INFO: Epoch [29/100] GlobalStep [334000] TrainLoss: 0.902974
+[2026-01-12 09:28:15,317] INFO: Epoch [13/100] GlobalStep [153000] MiniValLoss: 0.984614 (best: 0.969241)
+[2026-01-12 09:29:29,362] INFO: Epoch [29/100] GlobalStep [335000] TrainLoss: 0.872828
+[2026-01-12 09:29:58,006] INFO: Epoch [13/100] GlobalStep [154000] TrainLoss: 0.993176
+[2026-01-12 09:31:10,695] INFO: Epoch [29/100] GlobalStep [336000] TrainLoss: 0.862884
+[2026-01-12 09:32:05,306] INFO: Epoch [13/100] GlobalStep [154000] MiniValLoss: 0.985007 (best: 0.969241)
+[2026-01-12 09:32:52,222] INFO: Epoch [29/100] GlobalStep [337000] TrainLoss: 0.849372
+[2026-01-12 09:33:47,403] INFO: Epoch [13/100] GlobalStep [155000] TrainLoss: 0.982215
+[2026-01-12 09:35:47,271] INFO: Epoch [13/100] GlobalStep [155000] MiniValLoss: 0.985624 (best: 0.969241)
+[2026-01-12 09:35:47,678] INFO: Epoch [29/100] completed | TrainLoss: 0.873565 | ValLoss: 0.879653 | BestValLoss: 0.866154
+[2026-01-12 09:36:37,139] INFO: Epoch [30/100] GlobalStep [338000] TrainLoss: 0.891198
+[2026-01-12 09:37:29,607] INFO: Epoch [13/100] GlobalStep [156000] TrainLoss: 0.986725
+[2026-01-12 09:38:18,998] INFO: Epoch [30/100] GlobalStep [339000] TrainLoss: 0.840367
+[2026-01-12 09:39:36,933] INFO: Epoch [13/100] GlobalStep [156000] MiniValLoss: 0.985662 (best: 0.969241)
+[2026-01-12 09:39:59,982] INFO: Epoch [30/100] GlobalStep [340000] TrainLoss: 0.885273
+[2026-01-12 09:41:19,184] INFO: Epoch [13/100] GlobalStep [157000] TrainLoss: 0.972995
+[2026-01-12 09:41:42,259] INFO: Epoch [30/100] GlobalStep [341000] TrainLoss: 0.926066
+[2026-01-12 09:43:23,285] INFO: Epoch [30/100] GlobalStep [342000] TrainLoss: 0.877895
+[2026-01-12 09:43:26,351] INFO: Epoch [13/100] GlobalStep [157000] MiniValLoss: 0.985269 (best: 0.969241)
+[2026-01-12 09:45:05,664] INFO: Epoch [30/100] GlobalStep [343000] TrainLoss: 0.898263
+[2026-01-12 09:46:27,388] INFO: Epoch [13/100] completed | TrainLoss: 0.985063 | ValLoss: 0.984785 | BestValLoss: 0.969241
+[2026-01-12 09:46:46,538] INFO: Epoch [30/100] GlobalStep [344000] TrainLoss: 0.867352
+[2026-01-12 09:47:18,575] INFO: Epoch [14/100] GlobalStep [158000] TrainLoss: 0.995481
+[2026-01-12 09:48:28,162] INFO: Epoch [30/100] GlobalStep [345000] TrainLoss: 0.854767
+[2026-01-12 09:49:26,384] INFO: Epoch [14/100] GlobalStep [158000] MiniValLoss: 0.984289 (best: 0.969241)
+[2026-01-12 09:50:09,646] INFO: Epoch [30/100] GlobalStep [346000] TrainLoss: 0.865981
+[2026-01-12 09:51:08,753] INFO: Epoch [14/100] GlobalStep [159000] TrainLoss: 0.984704
+[2026-01-12 09:51:51,743] INFO: Epoch [30/100] GlobalStep [347000] TrainLoss: 0.869313
+[2026-01-12 09:53:15,802] INFO: Epoch [14/100] GlobalStep [159000] MiniValLoss: 0.985865 (best: 0.969241)
+[2026-01-12 09:53:32,502] INFO: Epoch [30/100] GlobalStep [348000] TrainLoss: 0.922649
+[2026-01-12 09:54:58,141] INFO: Epoch [14/100] GlobalStep [160000] TrainLoss: 0.974537
+[2026-01-12 09:56:59,105] INFO: Epoch [30/100] completed | TrainLoss: 0.876697 | ValLoss: 0.865154 | BestValLoss: 0.866154
+[2026-01-12 09:56:59,106] INFO: Deleted previous best: best_m1s1k1_epoch28.pt
+[2026-01-12 09:56:59,112] INFO: New best at epoch 30: val_loss=0.865154 -> best_m1s1k1_epoch30.pt
+[2026-01-12 09:57:04,654] INFO: Epoch [14/100] GlobalStep [160000] MiniValLoss: 0.984192 (best: 0.969241)
+[2026-01-12 09:57:22,735] INFO: Epoch [31/100] GlobalStep [349000] TrainLoss: 0.874925
+[2026-01-12 09:58:47,021] INFO: Epoch [14/100] GlobalStep [161000] TrainLoss: 0.985539
+[2026-01-12 09:59:05,219] INFO: Epoch [31/100] GlobalStep [350000] TrainLoss: 0.862750
+[2026-01-12 10:00:46,452] INFO: Epoch [31/100] GlobalStep [351000] TrainLoss: 0.873793
+[2026-01-12 10:00:54,245] INFO: Epoch [14/100] GlobalStep [161000] MiniValLoss: 0.985308 (best: 0.969241)
+[2026-01-12 10:02:28,988] INFO: Epoch [31/100] GlobalStep [352000] TrainLoss: 0.852867
+[2026-01-12 10:02:36,707] INFO: Epoch [14/100] GlobalStep [162000] TrainLoss: 0.986887
+[2026-01-12 10:04:10,389] INFO: Epoch [31/100] GlobalStep [353000] TrainLoss: 0.879688
+[2026-01-12 10:04:44,493] INFO: Epoch [14/100] GlobalStep [162000] MiniValLoss: 0.985183 (best: 0.969241)
+[2026-01-12 10:05:52,427] INFO: Epoch [31/100] GlobalStep [354000] TrainLoss: 0.858899
+[2026-01-12 10:06:26,853] INFO: Epoch [14/100] GlobalStep [163000] TrainLoss: 0.971648
+[2026-01-12 10:07:34,483] INFO: Epoch [31/100] GlobalStep [355000] TrainLoss: 0.895574
+[2026-01-12 10:08:34,617] INFO: Epoch [14/100] GlobalStep [163000] MiniValLoss: 0.984223 (best: 0.969241)
+[2026-01-12 10:09:15,842] INFO: Epoch [31/100] GlobalStep [356000] TrainLoss: 0.871474
+[2026-01-12 10:10:17,042] INFO: Epoch [14/100] GlobalStep [164000] TrainLoss: 0.973054
+[2026-01-12 10:10:58,055] INFO: Epoch [31/100] GlobalStep [357000] TrainLoss: 0.923309
+[2026-01-12 10:12:24,198] INFO: Epoch [14/100] GlobalStep [164000] MiniValLoss: 0.985067 (best: 0.969241)
+[2026-01-12 10:12:39,904] INFO: Epoch [31/100] GlobalStep [358000] TrainLoss: 0.934947
+[2026-01-12 10:14:06,434] INFO: Epoch [14/100] GlobalStep [165000] TrainLoss: 0.986924
+[2026-01-12 10:14:22,148] INFO: Epoch [31/100] GlobalStep [359000] TrainLoss: 0.821758
+[2026-01-12 10:16:02,857] INFO: Epoch [31/100] GlobalStep [360000] TrainLoss: 0.838732
+[2026-01-12 10:16:14,191] INFO: Epoch [14/100] GlobalStep [165000] MiniValLoss: 0.984591 (best: 0.969241)
+[2026-01-12 10:17:56,105] INFO: Epoch [14/100] GlobalStep [166000] TrainLoss: 1.004420
+[2026-01-12 10:18:14,001] INFO: Epoch [31/100] completed | TrainLoss: 0.878838 | ValLoss: 0.878066 | BestValLoss: 0.865154
+[2026-01-12 10:19:52,787] INFO: Epoch [32/100] GlobalStep [361000] TrainLoss: 0.888433
+[2026-01-12 10:20:03,086] INFO: Epoch [14/100] GlobalStep [166000] MiniValLoss: 0.985590 (best: 0.969241)
+[2026-01-12 10:21:35,218] INFO: Epoch [32/100] GlobalStep [362000] TrainLoss: 0.889167
+[2026-01-12 10:21:46,075] INFO: Epoch [14/100] GlobalStep [167000] TrainLoss: 0.986151
+[2026-01-12 10:23:16,477] INFO: Epoch [32/100] GlobalStep [363000] TrainLoss: 0.879257
+[2026-01-12 10:23:53,355] INFO: Epoch [14/100] GlobalStep [167000] MiniValLoss: 0.984948 (best: 0.969241)
+[2026-01-12 10:24:57,954] INFO: Epoch [32/100] GlobalStep [364000] TrainLoss: 0.830713
+[2026-01-12 10:25:35,836] INFO: Epoch [14/100] GlobalStep [168000] TrainLoss: 0.986771
+[2026-01-12 10:26:39,294] INFO: Epoch [32/100] GlobalStep [365000] TrainLoss: 0.862230
+[2026-01-12 10:27:43,551] INFO: Epoch [14/100] GlobalStep [168000] MiniValLoss: 0.984967 (best: 0.969241)
+[2026-01-12 10:28:19,972] INFO: Epoch [32/100] GlobalStep [366000] TrainLoss: 0.861926
+[2026-01-12 10:30:01,401] INFO: Epoch [32/100] GlobalStep [367000] TrainLoss: 0.866673
+[2026-01-12 10:31:09,274] INFO: Epoch [14/100] completed | TrainLoss: 0.985067 | ValLoss: 0.984873 | BestValLoss: 0.969241
+[2026-01-12 10:31:34,508] INFO: Epoch [15/100] GlobalStep [169000] TrainLoss: 1.008313
+[2026-01-12 10:31:42,939] INFO: Epoch [32/100] GlobalStep [368000] TrainLoss: 0.849534
+[2026-01-12 10:33:23,607] INFO: Epoch [32/100] GlobalStep [369000] TrainLoss: 0.870114
+[2026-01-12 10:33:41,909] INFO: Epoch [15/100] GlobalStep [169000] MiniValLoss: 0.984829 (best: 0.969241)
+[2026-01-12 10:35:05,158] INFO: Epoch [32/100] GlobalStep [370000] TrainLoss: 0.879885
+[2026-01-12 10:35:24,294] INFO: Epoch [15/100] GlobalStep [170000] TrainLoss: 0.982699
+[2026-01-12 10:36:46,237] INFO: Epoch [32/100] GlobalStep [371000] TrainLoss: 0.936428
+[2026-01-12 10:37:31,161] INFO: Epoch [15/100] GlobalStep [170000] MiniValLoss: 0.985405 (best: 0.969241)
+[2026-01-12 10:39:12,806] INFO: Epoch [15/100] GlobalStep [171000] TrainLoss: 0.989083
+[2026-01-12 10:39:22,687] INFO: Epoch [32/100] completed | TrainLoss: 0.873516 | ValLoss: 0.877172 | BestValLoss: 0.865154
+[2026-01-12 10:40:36,372] INFO: Epoch [33/100] GlobalStep [372000] TrainLoss: 0.859961
+[2026-01-12 10:41:20,254] INFO: Epoch [15/100] GlobalStep [171000] MiniValLoss: 0.986072 (best: 0.969241)
+[2026-01-12 10:42:18,485] INFO: Epoch [33/100] GlobalStep [373000] TrainLoss: 0.871885
+[2026-01-12 10:43:02,586] INFO: Epoch [15/100] GlobalStep [172000] TrainLoss: 0.984244
+[2026-01-12 10:44:00,120] INFO: Epoch [33/100] GlobalStep [374000] TrainLoss: 0.844694
+[2026-01-12 10:45:10,427] INFO: Epoch [15/100] GlobalStep [172000] MiniValLoss: 0.984507 (best: 0.969241)
+[2026-01-12 10:45:41,526] INFO: Epoch [33/100] GlobalStep [375000] TrainLoss: 0.859331
+[2026-01-12 10:46:52,690] INFO: Epoch [15/100] GlobalStep [173000] TrainLoss: 0.999078
+[2026-01-12 10:47:24,152] INFO: Epoch [33/100] GlobalStep [376000] TrainLoss: 0.877677
+[2026-01-12 10:49:00,247] INFO: Epoch [15/100] GlobalStep [173000] MiniValLoss: 0.986047 (best: 0.969241)
+[2026-01-12 10:49:05,187] INFO: Epoch [33/100] GlobalStep [377000] TrainLoss: 0.837208
+[2026-01-12 10:50:41,857] INFO: Epoch [15/100] GlobalStep [174000] TrainLoss: 0.993013
+[2026-01-12 10:50:48,190] INFO: Epoch [33/100] GlobalStep [378000] TrainLoss: 0.842132
+[2026-01-12 10:52:29,453] INFO: Epoch [33/100] GlobalStep [379000] TrainLoss: 0.871521
+[2026-01-12 10:52:49,691] INFO: Epoch [15/100] GlobalStep [174000] MiniValLoss: 0.985573 (best: 0.969241)
+[2026-01-12 10:54:13,113] INFO: Epoch [33/100] GlobalStep [380000] TrainLoss: 0.875256
+[2026-01-12 10:54:32,762] INFO: Epoch [15/100] GlobalStep [175000] TrainLoss: 1.001661
+[2026-01-12 10:55:55,230] INFO: Epoch [33/100] GlobalStep [381000] TrainLoss: 0.901429
+[2026-01-12 10:56:41,512] INFO: Epoch [15/100] GlobalStep [175000] MiniValLoss: 0.985096 (best: 0.969241)
+[2026-01-12 10:57:38,358] INFO: Epoch [33/100] GlobalStep [382000] TrainLoss: 0.880318
+[2026-01-12 11:00:02,477] INFO: Epoch [33/100] completed | TrainLoss: 0.880465 | ValLoss: 0.883808 | BestValLoss: 0.865154
+[2026-01-12 11:00:39,569] INFO: Epoch [34/100] GlobalStep [383000] TrainLoss: 0.852145
+[2026-01-12 11:01:56,903] INFO: Epoch [34/100] GlobalStep [384000] TrainLoss: 0.867593
+[2026-01-12 11:03:14,041] INFO: Epoch [34/100] GlobalStep [385000] TrainLoss: 0.889305
+[2026-01-12 11:04:30,632] INFO: Epoch [34/100] GlobalStep [386000] TrainLoss: 0.907333
+[2026-01-12 11:05:47,624] INFO: Epoch [34/100] GlobalStep [387000] TrainLoss: 0.888478
+[2026-01-12 11:07:04,889] INFO: Epoch [34/100] GlobalStep [388000] TrainLoss: 0.858970
+[2026-01-12 11:08:22,157] INFO: Epoch [34/100] GlobalStep [389000] TrainLoss: 0.884390
+[2026-01-12 11:09:39,309] INFO: Epoch [34/100] GlobalStep [390000] TrainLoss: 0.837341
+[2026-01-12 11:10:56,281] INFO: Epoch [34/100] GlobalStep [391000] TrainLoss: 0.841193
+[2026-01-12 11:12:13,524] INFO: Epoch [34/100] GlobalStep [392000] TrainLoss: 0.841600
+[2026-01-12 11:13:30,679] INFO: Epoch [34/100] GlobalStep [393000] TrainLoss: 0.858917
+[2026-01-12 11:16:08,303] INFO: Epoch [34/100] completed | TrainLoss: 0.875475 | ValLoss: 0.935727 | BestValLoss: 0.865154
+[2026-01-12 11:16:16,700] INFO: Using device: cuda (NVIDIA RTX 6000 Ada Generation)
+[2026-01-12 11:16:16,700] INFO: run_id=m1s1k1 | ckpt_dir=/home/gbsguest/Research/boson/BIO/ecggen/checkpoints/m1s1k1 | log_dir=/home/gbsguest/Research/boson/BIO/ecggen/logs/m1s1k1
+[2026-01-12 11:16:26,629] INFO: Epoch [35/100] GlobalStep [394000] TrainLoss: 0.887874
+[2026-01-12 11:16:43,959] INFO: params_total=797777 train_size=720031 val_size=80004 batch_size=64 epochs=100 max_steps=1000000 log_every=1000 val_every=1000 mini_val_ratio=0.2 steps_per_epoch=11251 num_visible=3
+[2026-01-12 11:16:45,551] INFO: Epoch [0/100] GlobalStep [0] TrainLoss: 2.967103
+[2026-01-12 11:18:05,156] INFO: Epoch [35/100] GlobalStep [395000] TrainLoss: 0.971142
+[2026-01-12 11:18:27,893] INFO: Epoch [0/100] GlobalStep [1000] TrainLoss: 0.972834
+[2026-01-12 11:19:44,502] INFO: Using device: cuda (NVIDIA RTX 6000 Ada Generation)
+[2026-01-12 11:19:44,502] INFO: run_id=m1s1k1 | ckpt_dir=/home/gbsguest/Research/boson/BIO/ecggen/checkpoints/m1s1k1 | log_dir=/home/gbsguest/Research/boson/BIO/ecggen/logs/m1s1k1
+[2026-01-12 11:19:45,832] INFO: Epoch [35/100] GlobalStep [396000] TrainLoss: 1.294899
+[2026-01-12 11:20:11,768] INFO: params_total=797777 train_size=720031 val_size=80004 batch_size=64 epochs=100 max_steps=1000000 log_every=1000 val_every=1000 mini_val_ratio=0.2 steps_per_epoch=11251 num_visible=3
+[2026-01-12 11:20:13,488] INFO: Epoch [0/100] GlobalStep [0] TrainLoss: 2.483057
+[2026-01-12 11:21:21,942] INFO: Epoch [35/100] GlobalStep [397000] TrainLoss: 0.872055
+[2026-01-12 11:21:55,853] INFO: Epoch [0/100] GlobalStep [1000] TrainLoss: 0.906097
+[2026-01-12 11:23:04,384] INFO: Epoch [35/100] GlobalStep [398000] TrainLoss: 0.876226
+[2026-01-12 11:24:03,303] INFO: Epoch [0/100] GlobalStep [1000] MiniValLoss: 0.936854 (best: inf)
+[2026-01-12 11:24:03,311] INFO: New best at step 1000: val_loss=0.936854 -> best_m1s1k1_step1000.pt
+[2026-01-12 11:24:46,407] INFO: Epoch [35/100] GlobalStep [399000] TrainLoss: 0.910646
+[2026-01-12 11:25:45,774] INFO: Epoch [0/100] GlobalStep [2000] TrainLoss: 0.891682
+[2026-01-12 11:26:28,940] INFO: Epoch [35/100] GlobalStep [400000] TrainLoss: 0.863247
+[2026-01-12 11:27:54,467] INFO: Epoch [0/100] GlobalStep [2000] MiniValLoss: 0.895538 (best: 0.936854)
+[2026-01-12 11:27:54,468] INFO: Deleted previous best: best_m1s1k1_step1000.pt
+[2026-01-12 11:27:54,474] INFO: New best at step 2000: val_loss=0.895538 -> best_m1s1k1_step2000.pt
+[2026-01-12 11:28:10,876] INFO: Epoch [35/100] GlobalStep [401000] TrainLoss: 0.924551
+[2026-01-12 11:29:35,849] INFO: Epoch [0/100] GlobalStep [3000] TrainLoss: 0.905949
+[2026-01-12 11:29:52,961] INFO: Epoch [35/100] GlobalStep [402000] TrainLoss: 0.834981
+[2026-01-12 11:31:34,075] INFO: Epoch [35/100] GlobalStep [403000] TrainLoss: 0.879893
+[2026-01-12 11:31:43,559] INFO: Epoch [0/100] GlobalStep [3000] MiniValLoss: 0.885443 (best: 0.895538)
+[2026-01-12 11:31:43,560] INFO: Deleted previous best: best_m1s1k1_step2000.pt
+[2026-01-12 11:31:43,567] INFO: New best at step 3000: val_loss=0.885443 -> best_m1s1k1_step3000.pt
+[2026-01-12 11:33:15,837] INFO: Epoch [35/100] GlobalStep [404000] TrainLoss: 0.880599
+[2026-01-12 11:33:24,946] INFO: Epoch [0/100] GlobalStep [4000] TrainLoss: 0.893516
+[2026-01-12 11:34:56,845] INFO: Epoch [35/100] GlobalStep [405000] TrainLoss: 0.845817
+[2026-01-12 11:35:32,187] INFO: Epoch [0/100] GlobalStep [4000] MiniValLoss: 0.885637 (best: 0.885443)
+[2026-01-12 11:37:08,040] INFO: Epoch [35/100] completed | TrainLoss: 0.878084 | ValLoss: 0.867110 | BestValLoss: 0.865154
+[2026-01-12 11:37:12,956] INFO: Epoch [0/100] GlobalStep [5000] TrainLoss: 0.932708
+[2026-01-12 11:38:46,755] INFO: Epoch [36/100] GlobalStep [406000] TrainLoss: 0.852371
+[2026-01-12 11:39:20,607] INFO: Epoch [0/100] GlobalStep [5000] MiniValLoss: 0.925713 (best: 0.885443)
+[2026-01-12 11:40:28,305] INFO: Epoch [36/100] GlobalStep [407000] TrainLoss: 0.847381
+[2026-01-12 11:41:01,707] INFO: Epoch [0/100] GlobalStep [6000] TrainLoss: 0.873405
+[2026-01-12 11:42:09,648] INFO: Epoch [36/100] GlobalStep [408000] TrainLoss: 0.883780
+[2026-01-12 11:43:09,379] INFO: Epoch [0/100] GlobalStep [6000] MiniValLoss: 0.886025 (best: 0.885443)
+[2026-01-12 11:43:50,607] INFO: Epoch [36/100] GlobalStep [409000] TrainLoss: 0.860374
+[2026-01-12 11:44:50,467] INFO: Epoch [0/100] GlobalStep [7000] TrainLoss: 0.971502
+[2026-01-12 11:45:32,448] INFO: Epoch [36/100] GlobalStep [410000] TrainLoss: 0.875487
+[2026-01-12 11:46:56,877] INFO: Epoch [0/100] GlobalStep [7000] MiniValLoss: 0.984780 (best: 0.885443)
+[2026-01-12 11:47:14,047] INFO: Epoch [36/100] GlobalStep [411000] TrainLoss: 0.884104
+[2026-01-12 11:48:38,048] INFO: Epoch [0/100] GlobalStep [8000] TrainLoss: 0.980143
+[2026-01-12 11:48:56,105] INFO: Epoch [36/100] GlobalStep [412000] TrainLoss: 0.894619
+[2026-01-12 11:50:37,090] INFO: Epoch [36/100] GlobalStep [413000] TrainLoss: 0.894797
+[2026-01-12 11:50:45,458] INFO: Epoch [0/100] GlobalStep [8000] MiniValLoss: 0.986126 (best: 0.885443)
+[2026-01-12 11:52:18,650] INFO: Epoch [36/100] GlobalStep [414000] TrainLoss: 0.876179
+[2026-01-12 11:52:26,530] INFO: Epoch [0/100] GlobalStep [9000] TrainLoss: 0.975951
+[2026-01-12 11:54:00,126] INFO: Epoch [36/100] GlobalStep [415000] TrainLoss: 0.859112
+[2026-01-12 11:54:33,973] INFO: Epoch [0/100] GlobalStep [9000] MiniValLoss: 0.982619 (best: 0.885443)
+[2026-01-12 11:55:41,859] INFO: Epoch [36/100] GlobalStep [416000] TrainLoss: 0.858411
+[2026-01-12 11:56:15,231] INFO: Epoch [0/100] GlobalStep [10000] TrainLoss: 0.911050
+[2026-01-12 11:58:17,753] INFO: Epoch [36/100] completed | TrainLoss: 0.875684 | ValLoss: 0.916700 | BestValLoss: 0.865154
+[2026-01-12 11:58:22,315] INFO: Epoch [0/100] GlobalStep [10000] MiniValLoss: 0.920782 (best: 0.885443)
+[2026-01-12 11:59:31,498] INFO: Epoch [37/100] GlobalStep [417000] TrainLoss: 0.850157
+[2026-01-12 12:00:03,898] INFO: Epoch [0/100] GlobalStep [11000] TrainLoss: 0.848311
+[2026-01-12 12:01:13,354] INFO: Epoch [37/100] GlobalStep [418000] TrainLoss: 0.841027
+[2026-01-12 12:02:12,528] INFO: Epoch [0/100] GlobalStep [11000] MiniValLoss: 0.872594 (best: 0.885443)
+[2026-01-12 12:02:12,529] INFO: Deleted previous best: best_m1s1k1_step3000.pt
+[2026-01-12 12:02:12,536] INFO: New best at step 11000: val_loss=0.872594 -> best_m1s1k1_step11000.pt
+[2026-01-12 12:02:55,788] INFO: Epoch [37/100] GlobalStep [419000] TrainLoss: 0.880986
+[2026-01-12 12:04:37,059] INFO: Epoch [37/100] GlobalStep [420000] TrainLoss: 0.863914
+[2026-01-12 12:04:46,316] INFO: Epoch [0/100] completed | TrainLoss: 0.927501 | ValLoss: 0.881098 | BestValLoss: 0.872594
+[2026-01-12 12:06:04,430] INFO: Epoch [1/100] GlobalStep [12000] TrainLoss: 0.973349
+[2026-01-12 12:06:19,757] INFO: Epoch [37/100] GlobalStep [421000] TrainLoss: 0.936923
+[2026-01-12 12:08:00,908] INFO: Epoch [37/100] GlobalStep [422000] TrainLoss: 0.871942
+[2026-01-12 12:08:12,651] INFO: Epoch [1/100] GlobalStep [12000] MiniValLoss: 0.983685 (best: 0.872594)
+[2026-01-12 12:09:43,608] INFO: Epoch [37/100] GlobalStep [423000] TrainLoss: 0.916032
+[2026-01-12 12:09:54,759] INFO: Epoch [1/100] GlobalStep [13000] TrainLoss: 0.894808
+[2026-01-12 12:11:24,800] INFO: Epoch [37/100] GlobalStep [424000] TrainLoss: 0.914469
+[2026-01-12 12:12:01,480] INFO: Epoch [1/100] GlobalStep [13000] MiniValLoss: 0.874651 (best: 0.872594)
+[2026-01-12 12:13:05,853] INFO: Epoch [37/100] GlobalStep [425000] TrainLoss: 0.834070
+[2026-01-12 12:13:42,424] INFO: Epoch [1/100] GlobalStep [14000] TrainLoss: 0.881016
+[2026-01-12 12:14:47,524] INFO: Epoch [37/100] GlobalStep [426000] TrainLoss: 0.858621
+[2026-01-12 12:15:50,489] INFO: Epoch [1/100] GlobalStep [14000] MiniValLoss: 0.879452 (best: 0.872594)
+[2026-01-12 12:16:28,979] INFO: Epoch [37/100] GlobalStep [427000] TrainLoss: 0.852861
+[2026-01-12 12:17:32,037] INFO: Epoch [1/100] GlobalStep [15000] TrainLoss: 0.878838
+[2026-01-12 12:19:30,808] INFO: Epoch [37/100] completed | TrainLoss: 0.874187 | ValLoss: 0.890693 | BestValLoss: 0.865154
+[2026-01-12 12:19:38,787] INFO: Epoch [1/100] GlobalStep [15000] MiniValLoss: 0.872628 (best: 0.872594)
+[2026-01-12 12:20:19,334] INFO: Epoch [38/100] GlobalStep [428000] TrainLoss: 0.945808
+[2026-01-12 12:21:20,544] INFO: Epoch [1/100] GlobalStep [16000] TrainLoss: 0.878698
+[2026-01-12 12:22:02,085] INFO: Epoch [38/100] GlobalStep [429000] TrainLoss: 0.891569
+[2026-01-12 12:23:36,258] INFO: Epoch [1/100] GlobalStep [16000] MiniValLoss: 0.870445 (best: 0.872594)
+[2026-01-12 12:23:36,258] INFO: Deleted previous best: best_m1s1k1_step11000.pt
+[2026-01-12 12:23:36,266] INFO: New best at step 16000: val_loss=0.870445 -> best_m1s1k1_step16000.pt
+[2026-01-12 12:23:53,604] INFO: Epoch [38/100] GlobalStep [430000] TrainLoss: 0.849728
+[2026-01-12 12:25:26,692] INFO: Epoch [1/100] GlobalStep [17000] TrainLoss: 0.849619
+[2026-01-12 12:25:45,908] INFO: Epoch [38/100] GlobalStep [431000] TrainLoss: 0.843147
+[2026-01-12 12:27:33,520] INFO: Epoch [38/100] GlobalStep [432000] TrainLoss: 0.857935
+[2026-01-12 12:27:42,401] INFO: Epoch [1/100] GlobalStep [17000] MiniValLoss: 0.864694 (best: 0.870445)
+[2026-01-12 12:27:42,402] INFO: Deleted previous best: best_m1s1k1_step16000.pt
+[2026-01-12 12:27:42,408] INFO: New best at step 17000: val_loss=0.864694 -> best_m1s1k1_step17000.pt
+[2026-01-12 12:29:22,114] INFO: Epoch [38/100] GlobalStep [433000] TrainLoss: 0.872387
+[2026-01-12 12:29:29,841] INFO: Epoch [1/100] GlobalStep [18000] TrainLoss: 0.877830
+[2026-01-12 12:31:10,456] INFO: Epoch [38/100] GlobalStep [434000] TrainLoss: 0.865910
+[2026-01-12 12:31:45,385] INFO: Epoch [1/100] GlobalStep [18000] MiniValLoss: 0.867451 (best: 0.864694)
+[2026-01-12 12:32:58,566] INFO: Epoch [38/100] GlobalStep [435000] TrainLoss: 0.877235
+[2026-01-12 12:33:32,674] INFO: Epoch [1/100] GlobalStep [19000] TrainLoss: 0.845288
+[2026-01-12 12:34:46,966] INFO: Epoch [38/100] GlobalStep [436000] TrainLoss: 0.866162
+[2026-01-12 12:35:47,641] INFO: Epoch [1/100] GlobalStep [19000] MiniValLoss: 0.867605 (best: 0.864694)
+[2026-01-12 12:36:31,512] INFO: Epoch [38/100] GlobalStep [437000] TrainLoss: 0.860935
+[2026-01-12 12:37:28,661] INFO: Epoch [1/100] GlobalStep [20000] TrainLoss: 0.875954
+[2026-01-12 12:38:13,370] INFO: Epoch [38/100] GlobalStep [438000] TrainLoss: 0.870302
+[2026-01-12 12:39:36,017] INFO: Epoch [1/100] GlobalStep [20000] MiniValLoss: 0.867261 (best: 0.864694)
+[2026-01-12 12:41:16,430] INFO: Epoch [1/100] GlobalStep [21000] TrainLoss: 0.928201
+[2026-01-12 12:41:39,969] INFO: Epoch [38/100] completed | TrainLoss: 0.876398 | ValLoss: 0.867846 | BestValLoss: 0.865154
+[2026-01-12 12:42:02,313] INFO: Epoch [39/100] GlobalStep [439000] TrainLoss: 0.864074
+[2026-01-12 12:43:24,215] INFO: Epoch [1/100] GlobalStep [21000] MiniValLoss: 0.923621 (best: 0.864694)
+[2026-01-12 12:43:43,238] INFO: Epoch [39/100] GlobalStep [440000] TrainLoss: 0.886860
+[2026-01-12 12:45:05,095] INFO: Epoch [1/100] GlobalStep [22000] TrainLoss: 0.815395
+[2026-01-12 12:45:25,632] INFO: Epoch [39/100] GlobalStep [441000] TrainLoss: 0.880709
+[2026-01-12 12:47:07,025] INFO: Epoch [39/100] GlobalStep [442000] TrainLoss: 0.895316
+[2026-01-12 12:47:12,741] INFO: Epoch [1/100] GlobalStep [22000] MiniValLoss: 0.862456 (best: 0.864694)
+[2026-01-12 12:47:12,742] INFO: Deleted previous best: best_m1s1k1_step17000.pt
+[2026-01-12 12:47:12,749] INFO: New best at step 22000: val_loss=0.862456 -> best_m1s1k1_step22000.pt
+[2026-01-12 12:48:48,646] INFO: Epoch [39/100] GlobalStep [443000] TrainLoss: 0.865271
+[2026-01-12 12:50:10,447] INFO: Epoch [1/100] completed | TrainLoss: 0.883545 | ValLoss: 0.861005 | BestValLoss: 0.862456
+[2026-01-12 12:50:10,448] INFO: Deleted previous best: best_m1s1k1_step22000.pt
+[2026-01-12 12:50:10,454] INFO: New best at epoch 1: val_loss=0.861005 -> best_m1s1k1_epoch1.pt
+[2026-01-12 12:50:30,309] INFO: Epoch [39/100] GlobalStep [444000] TrainLoss: 0.881943
+[2026-01-12 12:51:02,222] INFO: Epoch [2/100] GlobalStep [23000] TrainLoss: 0.854629
+[2026-01-12 12:52:11,833] INFO: Epoch [39/100] GlobalStep [445000] TrainLoss: 0.889627
+[2026-01-12 12:53:09,829] INFO: Epoch [2/100] GlobalStep [23000] MiniValLoss: 0.862994 (best: 0.861005)
+[2026-01-12 12:53:53,514] INFO: Epoch [39/100] GlobalStep [446000] TrainLoss: 0.910735
+[2026-01-12 12:54:51,104] INFO: Epoch [2/100] GlobalStep [24000] TrainLoss: 0.922114
+[2026-01-12 12:55:35,037] INFO: Epoch [39/100] GlobalStep [447000] TrainLoss: 0.901035
+[2026-01-12 12:56:58,202] INFO: Epoch [2/100] GlobalStep [24000] MiniValLoss: 0.929560 (best: 0.861005)
+[2026-01-12 12:57:16,291] INFO: Epoch [39/100] GlobalStep [448000] TrainLoss: 0.818361
+[2026-01-12 12:58:39,711] INFO: Epoch [2/100] GlobalStep [25000] TrainLoss: 0.837212
+[2026-01-12 12:58:57,724] INFO: Epoch [39/100] GlobalStep [449000] TrainLoss: 0.902679
+[2026-01-12 13:00:38,839] INFO: Epoch [39/100] GlobalStep [450000] TrainLoss: 0.872221
+[2026-01-12 13:00:47,211] INFO: Epoch [2/100] GlobalStep [25000] MiniValLoss: 0.868627 (best: 0.861005)
+[2026-01-12 13:02:27,625] INFO: Epoch [2/100] GlobalStep [26000] TrainLoss: 0.852277
+[2026-01-12 13:02:50,195] INFO: Epoch [39/100] completed | TrainLoss: 0.874494 | ValLoss: 0.887183 | BestValLoss: 0.865154
+[2026-01-12 13:04:28,505] INFO: Epoch [40/100] GlobalStep [451000] TrainLoss: 0.881880
+[2026-01-12 13:04:35,104] INFO: Epoch [2/100] GlobalStep [26000] MiniValLoss: 0.861996 (best: 0.861005)
+[2026-01-12 13:06:10,568] INFO: Epoch [40/100] GlobalStep [452000] TrainLoss: 0.873403
+[2026-01-12 13:06:16,373] INFO: Epoch [2/100] GlobalStep [27000] TrainLoss: 0.876838
+[2026-01-12 13:07:51,739] INFO: Epoch [40/100] GlobalStep [453000] TrainLoss: 0.941752
+[2026-01-12 13:08:24,399] INFO: Epoch [2/100] GlobalStep [27000] MiniValLoss: 0.866827 (best: 0.861005)
+[2026-01-12 13:09:33,307] INFO: Epoch [40/100] GlobalStep [454000] TrainLoss: 0.865134
+[2026-01-12 13:10:05,390] INFO: Epoch [2/100] GlobalStep [28000] TrainLoss: 0.904425
+[2026-01-12 13:11:15,050] INFO: Epoch [40/100] GlobalStep [455000] TrainLoss: 0.820536
+[2026-01-12 13:12:13,112] INFO: Epoch [2/100] GlobalStep [28000] MiniValLoss: 0.861923 (best: 0.861005)
+[2026-01-12 13:12:56,343] INFO: Epoch [40/100] GlobalStep [456000] TrainLoss: 0.858844
+[2026-01-12 13:13:54,179] INFO: Epoch [2/100] GlobalStep [29000] TrainLoss: 0.866231
+[2026-01-12 13:14:37,824] INFO: Epoch [40/100] GlobalStep [457000] TrainLoss: 0.850156
+[2026-01-12 13:16:01,920] INFO: Epoch [2/100] GlobalStep [29000] MiniValLoss: 0.859523 (best: 0.861005)
+[2026-01-12 13:16:01,920] INFO: Deleted previous best: best_m1s1k1_epoch1.pt
+[2026-01-12 13:16:01,926] INFO: New best at step 29000: val_loss=0.859523 -> best_m1s1k1_step29000.pt
+[2026-01-12 13:16:19,403] INFO: Epoch [40/100] GlobalStep [458000] TrainLoss: 0.895967
+[2026-01-12 13:17:42,691] INFO: Epoch [2/100] GlobalStep [30000] TrainLoss: 0.895002
+[2026-01-12 13:18:01,149] INFO: Epoch [40/100] GlobalStep [459000] TrainLoss: 0.874735
+[2026-01-12 13:19:43,161] INFO: Epoch [40/100] GlobalStep [460000] TrainLoss: 0.857101
+[2026-01-12 13:19:50,312] INFO: Epoch [2/100] GlobalStep [30000] MiniValLoss: 0.867299 (best: 0.859523)
+[2026-01-12 13:21:24,666] INFO: Epoch [40/100] GlobalStep [461000] TrainLoss: 0.898899
+[2026-01-12 13:21:31,609] INFO: Epoch [2/100] GlobalStep [31000] TrainLoss: 0.860636
+[2026-01-12 13:23:38,639] INFO: Epoch [2/100] GlobalStep [31000] MiniValLoss: 0.895487 (best: 0.859523)
+[2026-01-12 13:24:00,554] INFO: Epoch [40/100] completed | TrainLoss: 0.874796 | ValLoss: 0.871826 | BestValLoss: 0.865154
+[2026-01-12 13:25:13,669] INFO: Epoch [41/100] GlobalStep [462000] TrainLoss: 0.855462
+[2026-01-12 13:25:19,621] INFO: Epoch [2/100] GlobalStep [32000] TrainLoss: 0.842966
+[2026-01-12 13:26:55,001] INFO: Epoch [41/100] GlobalStep [463000] TrainLoss: 0.862479
+[2026-01-12 13:27:27,590] INFO: Epoch [2/100] GlobalStep [32000] MiniValLoss: 0.854189 (best: 0.859523)
+[2026-01-12 13:27:27,590] INFO: Deleted previous best: best_m1s1k1_step29000.pt
+[2026-01-12 13:27:27,596] INFO: New best at step 32000: val_loss=0.854189 -> best_m1s1k1_step32000.pt
+[2026-01-12 13:28:36,621] INFO: Epoch [41/100] GlobalStep [464000] TrainLoss: 0.853336
+[2026-01-12 13:29:08,511] INFO: Epoch [2/100] GlobalStep [33000] TrainLoss: 0.855894
+[2026-01-12 13:30:17,890] INFO: Epoch [41/100] GlobalStep [465000] TrainLoss: 0.878116
+[2026-01-12 13:31:17,374] INFO: Epoch [2/100] GlobalStep [33000] MiniValLoss: 0.855939 (best: 0.854189)
+[2026-01-12 13:31:58,710] INFO: Epoch [41/100] GlobalStep [466000] TrainLoss: 0.892920
+[2026-01-12 13:33:40,126] INFO: Epoch [41/100] GlobalStep [467000] TrainLoss: 0.856239
+[2026-01-12 13:34:42,176] INFO: Epoch [2/100] completed | TrainLoss: 0.866202 | ValLoss: 0.855079 | BestValLoss: 0.854189
+[2026-01-12 13:35:08,738] INFO: Epoch [3/100] GlobalStep [34000] TrainLoss: 0.890007
+[2026-01-12 13:35:22,135] INFO: Epoch [41/100] GlobalStep [468000] TrainLoss: 0.893353
+[2026-01-12 13:37:06,044] INFO: Epoch [41/100] GlobalStep [469000] TrainLoss: 0.837469
+[2026-01-12 13:37:18,985] INFO: Epoch [3/100] GlobalStep [34000] MiniValLoss: 0.858071 (best: 0.854189)
+[2026-01-12 13:38:48,556] INFO: Epoch [41/100] GlobalStep [470000] TrainLoss: 0.884027
+[2026-01-12 13:39:01,291] INFO: Epoch [3/100] GlobalStep [35000] TrainLoss: 0.868478
+[2026-01-12 13:40:29,918] INFO: Epoch [41/100] GlobalStep [471000] TrainLoss: 0.890041
+[2026-01-12 13:41:09,377] INFO: Epoch [3/100] GlobalStep [35000] MiniValLoss: 0.857798 (best: 0.854189)
+[2026-01-12 13:42:12,138] INFO: Epoch [41/100] GlobalStep [472000] TrainLoss: 0.872110
+[2026-01-12 13:42:51,478] INFO: Epoch [3/100] GlobalStep [36000] TrainLoss: 0.858696
+[2026-01-12 13:44:58,504] INFO: Epoch [3/100] GlobalStep [36000] MiniValLoss: 0.860813 (best: 0.854189)
+[2026-01-12 13:45:14,191] INFO: Epoch [41/100] completed | TrainLoss: 0.876682 | ValLoss: 0.862674 | BestValLoss: 0.865154
+[2026-01-12 13:45:14,192] INFO: Deleted previous best: best_m1s1k1_epoch30.pt
+[2026-01-12 13:45:14,199] INFO: New best at epoch 41: val_loss=0.862674 -> best_m1s1k1_epoch41.pt
+[2026-01-12 13:46:02,359] INFO: Epoch [42/100] GlobalStep [473000] TrainLoss: 0.848809
+[2026-01-12 13:46:40,357] INFO: Epoch [3/100] GlobalStep [37000] TrainLoss: 0.869163
+[2026-01-12 13:47:44,052] INFO: Epoch [42/100] GlobalStep [474000] TrainLoss: 0.842537
+[2026-01-12 13:48:47,956] INFO: Epoch [3/100] GlobalStep [37000] MiniValLoss: 0.866614 (best: 0.854189)
+[2026-01-12 13:49:25,548] INFO: Epoch [42/100] GlobalStep [475000] TrainLoss: 0.819827
+[2026-01-12 13:50:30,042] INFO: Epoch [3/100] GlobalStep [38000] TrainLoss: 0.868517
+[2026-01-12 13:51:07,685] INFO: Epoch [42/100] GlobalStep [476000] TrainLoss: 0.865101
+[2026-01-12 13:52:36,631] INFO: Epoch [3/100] GlobalStep [38000] MiniValLoss: 0.858726 (best: 0.854189)
+[2026-01-12 13:52:49,182] INFO: Epoch [42/100] GlobalStep [477000] TrainLoss: 0.851707
+[2026-01-12 13:54:18,381] INFO: Epoch [3/100] GlobalStep [39000] TrainLoss: 0.871723
+[2026-01-12 13:54:31,566] INFO: Epoch [42/100] GlobalStep [478000] TrainLoss: 0.853375
+[2026-01-12 13:56:12,813] INFO: Epoch [42/100] GlobalStep [479000] TrainLoss: 0.855837
+[2026-01-12 13:56:25,981] INFO: Epoch [3/100] GlobalStep [39000] MiniValLoss: 0.879583 (best: 0.854189)
+[2026-01-12 13:57:55,226] INFO: Epoch [42/100] GlobalStep [480000] TrainLoss: 0.852084
+[2026-01-12 13:58:07,797] INFO: Epoch [3/100] GlobalStep [40000] TrainLoss: 0.863304
